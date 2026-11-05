@@ -1,0 +1,31 @@
+name: validate
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: "1"
+      # Scryfall's oracle index, refreshed weekly
+      - id: week
+        run: echo "week=$(date -u +%G-%V)" >> "$GITHUB_OUTPUT"
+      - uses: actions/cache@v4
+        with:
+          path: .cache/oracle-index.json
+          key: oracle-index-${{ steps.week.outputs.week }}
+          restore-keys: oracle-index-
+      - name: Glyphs match their sources
+        run: |
+          node tools/render-art.mjs
+          git diff --exit-code -- glyphs
+      - run: node tools/validate.mjs

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M24 68.5 29.9 69.9 33.5 73.7 33.5 78.3 29.9 82.1 24 83.5 18.1 82.1 14.5 78.3 14.5 73.7 18.1 69.9Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M24 68.5 29.9 69.9 33.5 73.7 33.5 78.3 29.9 82.1 24 83.5 18.1 82.1 14.5 78.3 14.5 73.7 18.1 69.9Z"/>
+<path fill="#000" d="M30 26 36 26 36 76 30 76Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M30 26 36 26 36 76 30 76Z"/>
+<path class="accent" d="M32.8 77.3 28.8 77.3 28.8 74.8 32.8 74.8ZM28.8 77.3 28.8 68.9 31.3 68.9 31.3 77.3ZM70 62.5 75.9 63.9 79.5 67.7 79.5 72.3 75.9 76.1 70 77.5 64.1 76.1 60.5 72.3 60.5 67.7 64.1 63.9Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M70 62.5 75.9 63.9 79.5 67.7 79.5 72.3 75.9 76.1 70 77.5 64.1 76.1 60.5 72.3 60.5 67.7 64.1 63.9Z"/>
+<path class="accent" d="M76 18 82 18 82 70 76 70Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M76 18 82 18 82 70 76 70Z"/>
+<path fill="#000" d="M30 26 50.6 21.2 50.6 33.2 30 38Z"/>
+<path class="accent" d="M50 21.4 82 14 82 26 50 33.4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M30 26 82 14 82 26 30 38Z"/>
+<path class="accent" d="M35.8 37.9 29.1 39.5 28.5 37.1 35.3 35.5Z"/>
+<path fill="#000" d="M48 76 50.6 76.6 50.6 87.4 48 88 43.3 86.9 40.4 83.9 40.4 80.1 43.3 77.1Z"/>
+<path class="accent" d="M50 76.5 52.7 77.1 55.6 80.1 55.6 83.9 52.7 86.9 50 87.5Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M48 76 52.7 77.1 55.6 80.1 55.6 83.9 52.7 86.9 48 88 43.3 86.9 40.4 83.9 40.4 80.1 43.3 77.1Z"/>
+<path class="accent" d="M52 44 57 44 57 82 52 82Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M52 44 57 44 57 82 52 82Z"/>
+</svg>

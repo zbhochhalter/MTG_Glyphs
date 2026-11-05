@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sketchbook Glyphs</title>
+<meta name="description" content="An open library of original two-tone SVG glyphs for Magic: The Gathering playtest proxies.">
+<style>
+:root{--ink:#2b3538;--bg:#faf8f4;--fg:#2b3538;--muted:#6b7478;--line:#dcd6cc}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.45 system-ui,-apple-system,"Segoe UI",sans-serif}
+header,main,footer{max-width:1200px;margin:0 auto;padding:16px}
+h1{font-size:24px;margin:8px 0 4px}p{margin:4px 0}a{color:inherit}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;position:sticky;top:0;background:var(--bg);padding:10px 16px;z-index:2;border-bottom:1px solid var(--line);max-width:1200px;margin:0 auto}
+input,select{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:#fff;color:var(--fg)}
+input{flex:1 1 200px;min-width:0}
+.sw{display:flex;gap:4px}.sw button{width:26px;height:26px;border-radius:50%;border:2px solid transparent;cursor:pointer}
+.sw button[aria-pressed=true]{border-color:var(--fg)}
+#count{color:var(--muted);font-size:13px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(132px,1fr));gap:10px}
+.t{border-radius:8px;padding:10px 8px 8px;text-align:center;font-size:13px}
+.t svg{width:100%;height:auto;display:block}
+.t .n{font-weight:600;margin-top:4px;overflow-wrap:anywhere}.t .m{font-size:11px;color:var(--muted)}
+.t .m a{color:var(--muted)}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);margin-top:24px}
+code{font-size:13px}
+</style></head><body>
+<header>
+<h1>Sketchbook Glyphs</h1>
+<p>Original two-tone SVG glyphs for Magic: The Gathering playtest proxies: one per card type, one per subtype, and per-card glyphs for the most-played cards.</p>
+<p>Fetch them at a release tag: <code>https://cdn.jsdelivr.net/gh/zbhochhalter/MTG_Glyphs@v0.1.0/manifest.json</code>. Source and contract: <a href="https://github.com/zbhochhalter/MTG_Glyphs">github.com/zbhochhalter/MTG_Glyphs</a>.</p>
+</header>
+<div class="bar">
+<input id="q" type="search" placeholder="Search by name, subtype or type" aria-label="Search">
+<select id="kind" aria-label="Kind"><option value="">All kinds</option><option value="type">Types</option><option value="subtype">Subtypes</option><option value="card">Cards</option></select>
+<select id="group" aria-label="Subtype group"><option value="">All groups</option><option>creature</option><option>artifact</option><option>enchantment</option><option>land</option><option>spell</option><option>planeswalker</option><option>battle</option></select>
+<div class="sw" id="sw"><button title="green" aria-label="green" aria-pressed="true" data-c="green" style="background:#9bb99a"></button><button title="red" aria-label="red" aria-pressed="false" data-c="red" style="background:#d98d78"></button><button title="blue" aria-label="blue" aria-pressed="false" data-c="blue" style="background:#8fb2cf"></button><button title="black" aria-label="black" aria-pressed="false" data-c="black" style="background:#8a8094"></button><button title="white" aria-label="white" aria-pressed="false" data-c="white" style="background:#d2bb72"></button><button title="multicolour" aria-label="multicolour" aria-pressed="false" data-c="multicolour" style="background:#d4b468"></button><button title="colourless" aria-label="colourless" aria-pressed="false" data-c="colourless" style="background:#c4c7ca"></button></div>
+<span id="count"></span>
+</div>
+<main><div class="grid" id="grid"></div></main>
+<footer>
+<p>Glyphs &copy; Zach Garcia-Hochhalter and contributors, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Tools under the MIT licence. Attribution: &ldquo;Sketchbook Glyphs by Zach Garcia-Hochhalter and contributors, CC BY 4.0&rdquo;.</p>
+<p>Magic: The Gathering is a trademark of Wizards of the Coast LLC. This is unofficial fan content, not approved or endorsed by Wizards. These glyphs are original artwork and contain no Wizards of the Coast imagery.</p>
+<p>Card names and oracle ids come from <a href="https://scryfall.com">Scryfall</a>; popularity from <a href="https://edhrec.com">EDHREC</a>. Version 0.1.0.</p>
+</footer>
+<script>
+const COLOURS={"green":["#9bb99a","#f0ddd1"],"red":["#d98d78","#d5e8e3"],"blue":["#8fb2cf","#ede3d4"],"black":["#8a8094","#e3ead4"],"white":["#d2bb72","#e2e8f0"],"multicolour":["#d4b468","#e6dff0"],"colourless":["#c4c7ca","#efe9df"]},INK="#2b3538",RAW="https://raw.githubusercontent.com/zbhochhalter/MTG_Glyphs/main/";
+let items=[],colour="green";
+const recolour=(t,ink,acc)=>{t=t.replace(/class="accent"/g,'fill="'+acc+'" class="accent"');t=t.replace(/fill="#000"/g,'fill="'+ink+'"').replace(/stroke="#000"/g,'stroke="'+ink+'"');if(!/<svg[^>]*\sfill=/.test(t))t=t.replace("<svg",'<svg fill="'+ink+'"');return t.replace("<svg",'<svg role="img" aria-hidden="true"')};
+const esc=s=>s.replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+function draw(){const q=document.getElementById("q").value.trim().toLowerCase(),k=document.getElementById("kind").value,g=document.getElementById("group").value;const [acc,ground]=COLOURS[colour];
+const list=items.filter(i=>(!k||i.k===k)&&(!g||i.g===g)&&(!q||i.n.toLowerCase().includes(q)||i.key.includes(q)||i.g.includes(q)));
+document.getElementById("count").textContent=list.length+" of "+items.length;
+document.getElementById("grid").innerHTML=list.map(i=>'<div class="t" style="background:'+ground+'">'+recolour(i.s,INK,acc)+'<div class="n">'+esc(i.n)+'</div><div class="m">'+i.k+(i.k==="subtype"?" &middot; "+i.g:"")+' &middot; <a href="'+i.f+'">svg</a> &middot; <a href="'+RAW+i.f+'">raw</a></div></div>').join("")}
+fetch("glyphs.json").then(r=>r.json()).then(j=>{items=j.items;draw()});
+for(const id of ["q","kind","group"])document.getElementById(id).addEventListener("input",draw);
+document.getElementById("sw").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;colour=b.dataset.c;for(const x of document.querySelectorAll("#sw button"))x.setAttribute("aria-pressed",x===b);draw()});
+</script>
+</body></html>
