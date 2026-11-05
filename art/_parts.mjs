@@ -26,3 +26,12 @@ export const eyes = (x, y, r = 3.2, n = 4) => I(ngon(x, y, r, n), { m: 1 });
 export const eye = (x, y, r = 3.2, n = 4) => I(ngon(x, y, r, n));
 export const circle = (cx, cy, r, n = 12, rot = 0) => ngon(cx, cy, r, n, rot);
 export { ngon, xf, rect };
+// ring segment between radii r0 and r1 from angle a0 to a1 (0 = up, clockwise)
+export function sector(cx, cy, r0, r1, a0, a1, n = 6) {
+  const p = [];
+  for (let i = 0; i <= n; i++) { const a = ((a0 + ((a1 - a0) * i) / n) * Math.PI) / 180; p.push([cx + r1 * Math.sin(a), cy - r1 * Math.cos(a)]); }
+  for (let i = n; i >= 0; i--) { const a = ((a0 + ((a1 - a0) * i) / n) * Math.PI) / 180; p.push([cx + r0 * Math.sin(a), cy - r0 * Math.cos(a)]); }
+  return p;
+}
+// ring (annulus) as a solid with a hole
+export const ringS = (cx, cy, r0, r1, n = 14, o = {}) => S(ngon(cx, cy, r1, n), { ...o, holes: [ngon(cx, cy, r0, n)] });

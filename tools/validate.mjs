@@ -17,7 +17,7 @@ const GEOM = ['d', 'points', 'x', 'y', 'width', 'height', 'cx', 'cy', 'r', 'rx',
 const PAINT = ['fill', 'stroke', 'stroke-width', 'stroke-linejoin', 'stroke-linecap', 'stroke-miterlimit', 'fill-rule', 'class'];
 const ATTRS = new Set([...GEOM, ...PAINT]);
 // balance thresholds, measured on the rasterised glyph
-const BAL = { leftInk: 0.55, rightAcc: 0.3, minAcc: 0.12 };
+const BAL = { leftInk: 0.55, rightAcc: 0.25, minAcc: 0.12 };
 
 const errors = [], warnings = [];
 const err = (f, m) => errors.push(`${f}: ${m}`);

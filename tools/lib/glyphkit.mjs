@@ -267,3 +267,13 @@ export function render(layers) {
   }).join('\n');
   return `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">\n${body}\n</svg>\n`;
 }
+
+// Transform whole layers (scale/shift a finished drawing): X(layers, {s, dx, dy, rot})
+export function X(layers, o) {
+  const P = p => xf(p, o), Ls = l => l && lines(l).map(P);
+  return layers.flat(Infinity).filter(Boolean).map(ly => ({
+    ...ly,
+    p: ly.p && P(ly.p), ps: ly.ps && ly.ps.map(P), l: ly.l && ly.l.map(P),
+    f: Ls(ly.f), d: Ls(ly.d), holes: ly.holes && ly.holes.map(P),
+  }));
+}
