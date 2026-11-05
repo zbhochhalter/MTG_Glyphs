@@ -15,10 +15,10 @@ export default {
     // a spindle wound with thread
     Aminatou: () => X([S(rect(47, 6, 6, 88)), M('50,26 66,30 74,50 66,70 50,74'), D('30,36 70,40; 28,48 72,52; 30,60 70,64', { w: 2.5 }), S(circle(50, 92, 5, 6))], { s: 0.88 }),
     // a chained horn
-    Angrath: () => [
+    Angrath: () => X([
       S('20,80 22,56 30,36 44,20 62,10 80,8 72,16 60,24 48,40 42,60 40,82'),
       ringS(58, 76, 4, 10, 8), ringS(74, 64, 4, 10, 8), ringS(86, 48, 4, 9, 8),
-    ],
+    ], { dx: 4, s: 0.9 }),
     // a moon slashed by claws
     Arlinn: () => [S(circle(50, 50, 40, 16)), D('30,24 56,80; 44,18 70,74; 58,16 80,62', { w: 4 })],
     // a dark crown with an eye
@@ -69,7 +69,7 @@ export default {
     // a note on a mushroom
     Ellywick: () => [M('50,54 58,54 60,90 50,90'), M('50,34 66,36 80,46 84,56 50,56'), S(circle(30, 22, 8, 8)), S(rect(35, 4, 4, 18)), S('39,4 56,10 56,16 39,12')],
     // a pipe with smoke rings
-    Elminster: () => [S('20,62 56,62 56,76 46,88 28,88 20,76'), S(limb('56,68 90,54', 9, 8)), ringS(34, 42, 5, 11, 8), ringS(54, 18, 6, 13, 8)],
+    Elminster: () => X([S('20,62 56,62 56,76 46,88 28,88 20,76'), S(limb('56,68 90,54', 9, 8)), ringS(34, 42, 5, 11, 8), ringS(54, 18, 6, 13, 8)], { dx: 4, s: 0.9 }),
     // a sword before the sun
     Elspeth: () => [S(star(50, 46, 42, 30, 16)), ...sword({ s: 0.95 })],
     // a lantern
@@ -99,7 +99,7 @@ export default {
     // a star of five petals
     Jared: () => [...[0, 72, 144, 216, 288].map(a => S(xf('50,50 58,30 50,8 42,30', { rot: a }))), I(circle(50, 50, 7, 8))],
     // a flaming palm
-    Jaya: () => X([hand({ dy: 10, s: 0.8, cy: 90 }), flame(50, 44, 40, 0.7)], { s: 0.88 }),
+    Jaya: () => X([hand({ dy: 10, s: 0.8, cy: 90 }), flame(50, 44, 40, 0.7)], { s: 0.86, dy: -4 }),
     // three flames in a wreath
     Jeska: () => [ring(30, 40), flame(30, 60, 30, 0.4), flame(50, 54, 40, 0.5), flame(70, 60, 30, 0.4)],
     // a shuriken and a crescent
