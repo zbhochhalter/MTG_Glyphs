@@ -36,6 +36,7 @@ export function pts(p) {
 }
 export function lines(l) {
   if (!l) return [];
+  if (Array.isArray(l) && Array.isArray(l[0]) && typeof l[0][0] === 'number') return [pts(l)];
   if (Array.isArray(l)) return l.map(x => (typeof x === 'string' ? pts(x) : x));
   return l.split(';').map(s => s.trim()).filter(Boolean).map(pts);
 }
