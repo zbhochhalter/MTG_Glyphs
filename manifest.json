@@ -1,6 +1,199 @@
 {
   "version": "0.0.0",
-  "cards": {},
+  "cards": {
+    "234a734b-ba28-4f1b-9d01-3c3e7d516590": {
+      "name": "An Offer You Can't Refuse",
+      "file": "glyphs/cards/234a734b-ba28-4f1b-9d01-3c3e7d516590.svg"
+    },
+    "ad09b3c3-c8e7-481c-8c45-e7f234935117": {
+      "name": "Anguished Unmaking",
+      "file": "glyphs/cards/ad09b3c3-c8e7-481c-8c45-e7f234935117.svg"
+    },
+    "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37": {
+      "name": "Arcane Denial",
+      "file": "glyphs/cards/ab1cc360-b9de-48d9-9983-4dfe4a7d2a37.svg"
+    },
+    "0bc7f093-bef0-4f1a-852c-4b75ebf54838": {
+      "name": "Arcane Signet",
+      "file": "glyphs/cards/0bc7f093-bef0-4f1a-852c-4b75ebf54838.svg"
+    },
+    "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5": {
+      "name": "Assassin's Trophy",
+      "file": "glyphs/cards/ac10d218-f9a6-4058-9cda-a15ca1b0b7b5.svg"
+    },
+    "e018773f-95b3-49a3-9674-6f04ddef2092": {
+      "name": "Azorius Signet",
+      "file": "glyphs/cards/e018773f-95b3-49a3-9674-6f04ddef2092.svg"
+    },
+    "7735eeba-693b-47e2-bd51-414379cf1016": {
+      "name": "Beast Within",
+      "file": "glyphs/cards/7735eeba-693b-47e2-bd51-414379cf1016.svg"
+    },
+    "d3a0b660-358c-41bd-9cd2-41fbf3491b1a": {
+      "name": "Birds of Paradise",
+      "file": "glyphs/cards/d3a0b660-358c-41bd-9cd2-41fbf3491b1a.svg"
+    },
+    "7a2484a9-04fd-41a0-8224-610c1c07ed10": {
+      "name": "Blasphemous Act",
+      "file": "glyphs/cards/7a2484a9-04fd-41a0-8224-610c1c07ed10.svg"
+    },
+    "2679d0dd-ba30-4a1c-b6a0-b3ac6c790496": {
+      "name": "Boros Charm",
+      "file": "glyphs/cards/2679d0dd-ba30-4a1c-b6a0-b3ac6c790496.svg"
+    },
+    "07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8": {
+      "name": "Chaos Warp",
+      "file": "glyphs/cards/07a0cba9-8768-4fd9-a3d5-b0f83b4bf8e8.svg"
+    },
+    "cc187110-1148-4090-bbb8-e205694a39f5": {
+      "name": "Counterspell",
+      "file": "glyphs/cards/cc187110-1148-4090-bbb8-e205694a39f5.svg"
+    },
+    "8b755881-a72d-4e21-a369-d2924eb4585a": {
+      "name": "Cultivate",
+      "file": "glyphs/cards/8b755881-a72d-4e21-a369-d2924eb4585a.svg"
+    },
+    "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b": {
+      "name": "Cyclonic Rift",
+      "file": "glyphs/cards/d75b9c82-1b49-4c3e-a1b5-aeef57d6644b.svg"
+    },
+    "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b": {
+      "name": "Dark Ritual",
+      "file": "glyphs/cards/53f7c868-b03e-4fc2-8dcf-a75bbfa3272b.svg"
+    },
+    "7d881c57-0bd9-4c57-aa4a-b10808b86143": {
+      "name": "Dimir Signet",
+      "file": "glyphs/cards/7d881c57-0bd9-4c57-aa4a-b10808b86143.svg"
+    },
+    "1b388371-f9ef-45b4-82a3-ca20a8cd7807": {
+      "name": "Dovin's Veto",
+      "file": "glyphs/cards/1b388371-f9ef-45b4-82a3-ca20a8cd7807.svg"
+    },
+    "495e52e6-4c2b-4574-9474-eadbdcc8b4ac": {
+      "name": "Farseek",
+      "file": "glyphs/cards/495e52e6-4c2b-4574-9474-eadbdcc8b4ac.svg"
+    },
+    "95560508-7ac9-4be9-8a3f-3c7d5b52807b": {
+      "name": "Fellwar Stone",
+      "file": "glyphs/cards/95560508-7ac9-4be9-8a3f-3c7d5b52807b.svg"
+    },
+    "fae37e28-e137-4177-b973-fa8b4dd8f409": {
+      "name": "Generous Gift",
+      "file": "glyphs/cards/fae37e28-e137-4177-b973-fa8b4dd8f409.svg"
+    },
+    "34bcc217-dd91-45a0-90d7-a94d02f1f317": {
+      "name": "Growth Spiral",
+      "file": "glyphs/cards/34bcc217-dd91-45a0-90d7-a94d02f1f317.svg"
+    },
+    "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27": {
+      "name": "Heroic Intervention",
+      "file": "glyphs/cards/24882fa2-3fe9-4c1b-aa3d-0e6488b9db27.svg"
+    },
+    "c8de43a3-ebd3-4000-b343-a6ffed11d34d": {
+      "name": "Ignoble Hierarch",
+      "file": "glyphs/cards/c8de43a3-ebd3-4000-b343-a6ffed11d34d.svg"
+    },
+    "2fda4fe7-8b0c-489c-a000-6d358e614e34": {
+      "name": "Izzet Signet",
+      "file": "glyphs/cards/2fda4fe7-8b0c-489c-a000-6d358e614e34.svg"
+    },
+    "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90": {
+      "name": "Kodama's Reach",
+      "file": "glyphs/cards/1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90.svg"
+    },
+    "ca204b66-8d0c-431a-8d34-282f7c2d17da": {
+      "name": "Lightning Greaves",
+      "file": "glyphs/cards/ca204b66-8d0c-431a-8d34-282f7c2d17da.svg"
+    },
+    "eaddc7cf-5d58-422a-ba00-6708dee2d853": {
+      "name": "Llanowar Elves",
+      "file": "glyphs/cards/eaddc7cf-5d58-422a-ba00-6708dee2d853.svg"
+    },
+    "78826359-fe63-44ad-adc4-a17ffcd710e4": {
+      "name": "Nature's Lore",
+      "file": "glyphs/cards/78826359-fe63-44ad-adc4-a17ffcd710e4.svg"
+    },
+    "3407fe41-fdd3-4119-8f70-4bc4590a379f": {
+      "name": "Negate",
+      "file": "glyphs/cards/3407fe41-fdd3-4119-8f70-4bc4590a379f.svg"
+    },
+    "de3dcb5d-775a-479f-99f5-d1883ed9b1b5": {
+      "name": "Orzhov Signet",
+      "file": "glyphs/cards/de3dcb5d-775a-479f-99f5-d1883ed9b1b5.svg"
+    },
+    "d683d985-9888-4d21-8b5f-69e69ce4a03b": {
+      "name": "Path to Exile",
+      "file": "glyphs/cards/d683d985-9888-4d21-8b5f-69e69ce4a03b.svg"
+    },
+    "3adb7681-977f-4a32-9ec8-51481b958268": {
+      "name": "Rakdos Signet",
+      "file": "glyphs/cards/3adb7681-977f-4a32-9ec8-51481b958268.svg"
+    },
+    "8539f295-5d58-4436-a73a-b9277c4c7795": {
+      "name": "Rampant Growth",
+      "file": "glyphs/cards/8539f295-5d58-4436-a73a-b9277c4c7795.svg"
+    },
+    "a044474a-cd72-4e9d-bd8d-a08f2de9cdc0": {
+      "name": "Reanimate",
+      "file": "glyphs/cards/a044474a-cd72-4e9d-bd8d-a08f2de9cdc0.svg"
+    },
+    "53236dd7-845a-444c-96d5-f41ed7325d8f": {
+      "name": "Rhystic Study",
+      "file": "glyphs/cards/53236dd7-845a-444c-96d5-f41ed7325d8f.svg"
+    },
+    "acfa77fd-3610-4f12-9c3c-bd860ce91700": {
+      "name": "Rhythm of the Wild",
+      "file": "glyphs/cards/acfa77fd-3610-4f12-9c3c-bd860ce91700.svg"
+    },
+    "153376c9-dffd-458c-8ce3-a4c8269bc4e9": {
+      "name": "Smothering Tithe",
+      "file": "glyphs/cards/153376c9-dffd-458c-8ce3-a4c8269bc4e9.svg"
+    },
+    "6ad8011d-3471-4369-9d68-b264cc027487": {
+      "name": "Sol Ring",
+      "file": "glyphs/cards/6ad8011d-3471-4369-9d68-b264cc027487.svg"
+    },
+    "c8b143ad-43ec-4e0d-a440-e348daa31391": {
+      "name": "Swiftfoot Boots",
+      "file": "glyphs/cards/c8b143ad-43ec-4e0d-a440-e348daa31391.svg"
+    },
+    "b1544f21-7e98-461b-aed5-e748b0168c52": {
+      "name": "Swords to Plowshares",
+      "file": "glyphs/cards/b1544f21-7e98-461b-aed5-e748b0168c52.svg"
+    },
+    "6c326439-5620-4ec6-a56a-fe9c3d5d2a46": {
+      "name": "Talisman of Conviction",
+      "file": "glyphs/cards/6c326439-5620-4ec6-a56a-fe9c3d5d2a46.svg"
+    },
+    "14d2979d-5728-42d7-a027-0eb1f754655d": {
+      "name": "Talisman of Creativity",
+      "file": "glyphs/cards/14d2979d-5728-42d7-a027-0eb1f754655d.svg"
+    },
+    "4c0a0448-b9d6-43a0-8549-64066dac63f0": {
+      "name": "Talisman of Dominance",
+      "file": "glyphs/cards/4c0a0448-b9d6-43a0-8549-64066dac63f0.svg"
+    },
+    "b693c3de-2eaf-4850-b405-e79d00adefda": {
+      "name": "Talisman of Hierarchy",
+      "file": "glyphs/cards/b693c3de-2eaf-4850-b405-e79d00adefda.svg"
+    },
+    "1d9aeaaa-66f6-41cb-9bac-162d6fd8662c": {
+      "name": "Talisman of Indulgence",
+      "file": "glyphs/cards/1d9aeaaa-66f6-41cb-9bac-162d6fd8662c.svg"
+    },
+    "00e35322-1a9a-41e3-9ce1-359c8eaa3bc7": {
+      "name": "Talisman of Progress",
+      "file": "glyphs/cards/00e35322-1a9a-41e3-9ce1-359c8eaa3bc7.svg"
+    },
+    "6257c2fd-005f-41e3-8a72-af76df1eb134": {
+      "name": "Terminate",
+      "file": "glyphs/cards/6257c2fd-005f-41e3-8a72-af76df1eb134.svg"
+    },
+    "1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e": {
+      "name": "Three Visits",
+      "file": "glyphs/cards/1b882a0e-0ede-4d1a-bd1a-9b7cffbcde8e.svg"
+    }
+  },
   "subtypes": {
     "abian": "glyphs/subtypes/abian.svg",
     "adventure": "glyphs/subtypes/adventure.svg",
