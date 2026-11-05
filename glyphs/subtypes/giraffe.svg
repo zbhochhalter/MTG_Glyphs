@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M42 24.3 40 10.3 44 9.7 46 23.7Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M42 24.3 40 10.3 44 9.7 46 23.7Z"/>
+<path class="accent" d="M54 23.7 56 9.7 60 10.3 58 24.3Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M54 23.7 56 9.7 60 10.3 58 24.3Z"/>
+<path fill="#000" d="M45.5 6 45.5 10 42 12 38.5 10 38.5 6 42 4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M45.5 6 45.5 10 42 12 38.5 10 38.5 6 42 4Z"/>
+<path class="accent" d="M58 4 61.5 6 61.5 10 58 12 54.5 10 54.5 6Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M58 4 61.5 6 61.5 10 58 12 54.5 10 54.5 6Z"/>
+<path fill="#000" d="M30 30 26 22 40 26Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M30 30 26 22 40 26Z"/>
+<path class="accent" d="M60 26 74 22 70 30Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M60 26 74 22 70 30Z"/>
+<path fill="#000" d="M50 16 50.6 16.2 50.6 94 50 94 44 94 44 46 38 40 36 28 42 18Z"/>
+<path class="accent" d="M50 16 58 18 64 28 62 40 56 46 56 94 50 94 50 16Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 16 58 18 64 28 62 40 56 46 56 94 50 94 44 94 44 46 38 40 36 28 42 18Z"/>
+<path class="accent" d="M34.3 28.4 36.3 25 38.5 26.3 36.4 29.7ZM40.5 17.1 45.6 15.8 46.2 18.2 41.1 19.5Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M58 18 56 40"/>
+<path fill="#000" d="M50 36 50.6 36 50.6 55.8 50 56 44 54 40 44 44 36Z"/>
+<path class="accent" d="M50 36 56 36 60 44 56 54 50 56 50 36Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 36 56 36 60 44 56 54 50 56 44 54 40 44 44 36Z"/>
+<path class="accent" d="M49.6 57.2 43.6 55.2 44.4 52.8 50.4 54.8ZM39.7 41.9 43.4 34.3 45.7 35.4 41.9 43ZM42.8 34.8 49.8 34.8 49.8 37.3 42.8 37.3Z"/>
+<path fill="#000" d="M56 27.6 58.4 30 56 32.4 53.6 30Z"/>
+<path class="accent" d="M46.4 30 44 32.4 41.6 30 44 27.6ZM44 62 48 60 49 68 44 70Z"/>
+<path fill="#000" d="M51 72 55 72 55 80 51 80Z"/>
+<path class="accent" d="M44 82 48 82 48 90 44 90Z"/>
+</svg>
