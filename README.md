@@ -118,4 +118,4 @@ The drawing style and its running log are in [STYLE.md](STYLE.md).
 
 | tag | contents | jsDelivr check |
 | --- | --- | --- |
-| v0.1.0 | 11 types, 535 subtypes, top 48 cards | see the commit that adds this tag |
+| v0.1.0 | 11 types, 535 subtypes, top 48 cards | tag not yet pushed (the build environment can't push tags); the release commit resolved through jsDelivr with `Access-Control-Allow-Origin: *` at `https://cdn.jsdelivr.net/gh/zbhochhalter/MTG_Glyphs@fd79b62998931ee56ff188da4daae012979d30bc/manifest.json` |
