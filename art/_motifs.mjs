@@ -1,5 +1,5 @@
 // Recurring motifs, so later batches match earlier ones. See STYLE.md.
-import { S, M, D, F, I, K, L, A, pts, ngon, star, xf, arc, rect } from '../tools/lib/glyphkit.mjs';
+import { S, M, D, F, I, K, L, A, pts, ngon, star, xf, arc, rect, mirrorHalf } from '../tools/lib/glyphkit.mjs';
 import { S2, limb, mx } from './_parts.mjs';
 
 const T = (p, o) => (o ? xf(p, o) : pts(p));
@@ -31,7 +31,7 @@ export function spear(o) {
 }
 // Shield: heater shape, mirrored
 export const shield = (o, f = '50,14 72,30; 72,30 50,58 64,78') =>
-  S(T(mirrorPts('50,10 80,16 80,44 72,66 50,90'), o), { f: f && Tl(f, o) });
+  S(T(mirrorHalf('50,10 80,16 80,44 72,66 50,90'), o), { f: f && Tl(f, o) });
 function mirrorPts(half) {
   const h = pts(half), out = h.slice();
   for (const q of h.slice(0, -1).reverse().slice(0, -1).map(([x, y]) => [100 - x, y])) out.push(q);
