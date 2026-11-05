@@ -8,9 +8,7 @@
 <path fill="#000" d="M20 66 24 48 34 34 50 28 50.6 28.1 50.6 66.9Z"/>
 <path class="accent" d="M50 28 66 30 80 40 88 56 88 68 50 66.9Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M20 66 24 48 34 34 50 28 66 30 80 40 88 56 88 68Z"/>
-<path class="accent" d="M34.5 67.7 26.1 67.4 26.2 64.9 34.6 65.2Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M66 30 68 50 88 62M80 40 68 50"/>
-<path class="accent" d="M35.4 34.9 32.1 65.4 29.6 65.1 32.9 34.6ZM45.3 28.8 44.2 67.3 41.7 67.2 42.8 28.7Z"/>
+<path class="accent" d="M34.5 67.7 26.1 67.4 26.2 64.9 34.6 65.2ZM35.4 34.9 32.1 65.4 29.6 65.1 32.9 34.6ZM45.3 28.8 44.2 67.3 41.7 67.2 42.8 28.7Z"/>
 <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M56 29 57 66M68 33 71 66M78 41 81 66"/>
 <path fill="#000" d="M28 72 10 75 8 68 24 56Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M28 72 10 75 8 68 24 56Z"/>

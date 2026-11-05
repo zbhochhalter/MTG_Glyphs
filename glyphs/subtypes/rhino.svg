@@ -10,7 +10,6 @@
 <path class="accent" d="M50 22 62 24 72 32 76 46 72 62 64 76 56 84 50 86 50 22Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 22 62 24 72 32 76 46 72 62 64 76 56 84 50 86 44 84 36 76 28 62 24 46 28 32 38 24Z"/>
 <path class="accent" d="M28.5 30 38.2 22.2 39.8 24.2 30 32Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M62 24 64 46 76 46M64 46 64 76"/>
 <path fill="#000" d="M46 40 50 30 50.6 31.5 50.6 40Z"/>
 <path class="accent" d="M50 30 54 40 50 40Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M46 40 50 30 54 40Z"/>

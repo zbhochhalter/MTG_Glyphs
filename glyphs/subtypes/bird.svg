@@ -3,7 +3,6 @@
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M46 56 38 62 26 70 22 60 10 60 12 50 4 44 8 34 6 22 18 20 34 26 46 42Z"/>
 <path class="accent" d="M54 42 66 26 82 20 94 22 92 34 96 44 88 50 90 60 78 60 74 70 62 62 54 56Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M54 42 66 26 82 20 94 22 92 34 96 44 88 50 90 60 78 60 74 70 62 62 54 56Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M56 45 94 22M57 50 88 50M57 54 78 60"/>
 <path fill="#000" d="M42 74 50.6 74 50.6 86.3 50 86 36 92Z"/>
 <path class="accent" d="M50 74 58 74 64 92 50 86Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M42 74 58 74 64 92 50 86 36 92Z"/>
@@ -11,7 +10,6 @@
 <path class="accent" d="M50 30 57 33 60 48 58 66 54 78 50 80 50 30Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 30 57 33 60 48 58 66 54 78 50 80 46 78 42 66 40 48 43 33Z"/>
 <path class="accent" d="M49.2 81 44.3 78.6 45.4 76.3 50.3 78.8ZM45.2 79.6 43.5 74.5 45.9 73.8 47.6 78.8ZM40.3 61.8 38.6 46.9 41.1 46.6 42.8 61.6ZM38.5 49 41.7 32.9 44.2 33.4 41 49.5Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M57 33 50 60"/>
 <path fill="#000" d="M50 19 50.6 19.2 50.6 36.8 50 37 43.6 34.4 41 28 43.6 21.6Z"/>
 <path class="accent" d="M50 19 56.4 21.6 59 28 56.4 34.4 50 37 50 19Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 19 56.4 21.6 59 28 56.4 34.4 50 37 43.6 34.4 41 28 43.6 21.6Z"/>

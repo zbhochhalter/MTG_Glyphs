@@ -2,7 +2,7 @@
 <path fill="#000" d="M8 30 50.6 30 50.6 70 8 70 8 58 12 54 12 46 8 42Z"/>
 <path class="accent" d="M50 30 92 30 92 42 88 46 88 54 92 58 92 70 50 70Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M8 30 92 30 92 42 88 46 88 54 92 58 92 70 8 70 8 58 12 54 12 46 8 42Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M92 30 76 50 92 70M66 34 66 66"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M66 34 66 66"/>
 <path class="accent" d="M37 39 39.9 46 47.5 46.6 41.8 51.5 43.5 58.9 37 55 30.5 58.9 32.2 51.5 26.5 46.6 34.1 46Z"/>
 <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M74 42 84 42M74 50 84 50M74 58 84 58"/>
 </svg>

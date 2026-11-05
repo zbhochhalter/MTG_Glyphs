@@ -27,6 +27,9 @@
 // Polyline strings separate lines with ";".
 
 export const W = { outline: 4, facet: 2.5, detail: 3, sep: 2.5 };
+// Facet lines (o.f and F layers) are no longer drawn: the accent half stays a
+// clean flat fill. Sources may still carry them; the renderer ignores them.
+export const DRAW_FACETS = false;
 const SEAM = 50;
 
 // ---------- geometry ----------
@@ -243,12 +246,12 @@ export function render(layers) {
         }
         for (const s of seps) for (const q of thick(s, ly.sepw || W.sep)) push('acc', dPoly(orient(q)));
       }
-      if (ly.f) push('st', lines(ly.f).flatMap(l => clipLine(l, false)).map(dLine).join(''), ly.fw || W.facet);
+      if (DRAW_FACETS && ly.f) push('st', lines(ly.f).flatMap(l => clipLine(l, false)).map(dLine).join(''), ly.fw || W.facet);
       if (ly.d) inv(lines(ly.d), ly.dw || W.detail);
       if (ly.t === 'S') solids.push({ poly, holes });
       else solids.push({ poly, holes, acc: true });
     } else if (ly.t === 'D') inv(ly.l, ly.w || W.detail);
-    else if (ly.t === 'F') push('st', ly.l.flatMap(l => clipLine(l, false)).map(dLine).join(''), ly.w || W.facet);
+    else if (ly.t === 'F' && DRAW_FACETS) push('st', ly.l.flatMap(l => clipLine(l, false)).map(dLine).join(''), ly.w || W.facet);
     else if (ly.t === 'L') push('st', ly.l.map(dLine).join(''), ly.w || W.detail);
     else if (ly.t === 'I') {
       for (const p of ly.ps) {

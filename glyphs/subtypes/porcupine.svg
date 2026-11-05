@@ -34,7 +34,6 @@
 <path class="accent" d="M50 42 60 44 68 52 68 64 62 74 50 78 50 42Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 42 60 44 68 52 68 64 62 74 50 78 38 74 32 64 32 52 40 44Z"/>
 <path class="accent" d="M30.8 56.3 30.8 52.3 33.3 52.3 33.3 56.3ZM32.2 50 35 47.2 36.8 49 34 51.8ZM44.2 41.9 48.1 41.1 48.6 43.6 44.7 44.3Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M60 44 58 62 68 64"/>
 <path fill="#000" d="M58 55.4 60.6 58 58 60.6 55.4 58Z"/>
 <path class="accent" d="M44.6 58 42 60.6 39.4 58 42 55.4ZM50 68.5 50 75.5 47 73.8 47 70.3Z"/>
 <path fill="#000" d="M50 68.5 53 70.3 53 73.8 50 75.5 49.6 75.3 49.6 68.7Z"/>

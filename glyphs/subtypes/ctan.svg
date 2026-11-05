@@ -20,8 +20,6 @@
 <path fill="#000" d="M50 24 50.6 24.7 50.6 75.3 50 76 38 62 24 50 38 38Z"/>
 <path class="accent" d="M50 24 62 38 76 50 62 62 50 76 50 24Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 24 62 38 76 50 62 62 50 76 38 62 24 50 38 38Z"/>
-<path class="accent" d="M25.2 52.7 22.2 50.1 23.9 48.2 26.8 50.8ZM22.2 49.9 25.2 47.3 26.8 49.2 23.9 51.8Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 24 50 76M50 50 76 50"/>
-<path class="accent" d="M50 43 50 57 43 50Z"/>
+<path class="accent" d="M25.2 52.7 22.2 50.1 23.9 48.2 26.8 50.8ZM22.2 49.9 25.2 47.3 26.8 49.2 23.9 51.8ZM50 43 50 57 43 50Z"/>
 <path fill="#000" d="M50 43 57 50 50 57 49.6 56.6 49.6 43.4Z"/>
 </svg>

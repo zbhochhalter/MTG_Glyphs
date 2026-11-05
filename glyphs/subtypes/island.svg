@@ -20,5 +20,4 @@
 <path class="accent" d="M50 75.3 52 73 64 71 76 74 84 80 92 74 92 94 50 94Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M8 84 16 75 28 73 38 76 44 82 52 73 64 71 76 74 84 80 92 74 92 94 8 94Z"/>
 <path class="accent" d="M25.2 72.2 29 71.6 29.4 74 25.6 74.7ZM27.2 71.4 39.6 75.2 38.8 77.6 26.4 73.8ZM38 74.2 41.8 78 40 79.8 36.2 76ZM45.8 78.1 49.2 74.2 51.1 75.9 47.7 79.8Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M52 73 60 94M76 74 80 94"/>
 </svg>

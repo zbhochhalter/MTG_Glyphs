@@ -5,6 +5,5 @@
 <path class="accent" d="M50 12 82 74 50 74 50 12Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 12 82 74 18 74Z"/>
 <path class="accent" d="M23.8 60 27 53.8 29.2 55 26 61.2Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 12 60 74"/>
 <path fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" d="M60 50 94 34M62 54 94 50M62 58 94 66M60 62 92 82"/>
 </svg>

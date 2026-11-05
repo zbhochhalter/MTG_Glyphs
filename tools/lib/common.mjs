@@ -37,14 +37,18 @@ export const writeJSON = (f, v) => fs.writeFileSync(f, JSON.stringify(v, null, 2
 
 export const sleep = ms => new Promise(r => setTimeout(r, ms));
 let lastReq = 0;
-// Scryfall asks for at most 10 requests a second; stay well under it.
+// Scryfall asks for at most 10 requests a second (fewer for searches); stay
+// well under it and back off on 429.
 export async function scryfall(url) {
-  const wait = lastReq + 120 - Date.now();
-  if (wait > 0) await sleep(wait);
-  lastReq = Date.now();
-  const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
-  if (!r.ok) throw new Error(`${r.status} ${url}`);
-  return r.json();
+  for (let attempt = 0; ; attempt++) {
+    const wait = lastReq + 200 - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastReq = Date.now();
+    const r = await fetch(url, { headers: { 'User-Agent': UA, Accept: 'application/json' } });
+    if (r.status === 429 && attempt < 4) { await sleep(2000 * 2 ** attempt); continue; }
+    if (!r.ok) throw new Error(`${r.status} ${url}`);
+    return r.json();
+  }
 }
 
 // Oracle index: { ids: {oracle_id: name}, byName: {lower name: oracle_id} },

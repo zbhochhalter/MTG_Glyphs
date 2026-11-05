@@ -14,9 +14,7 @@
 <path fill="#000" d="M50 6 50.6 6.3 50.6 63.8 50 64 32 58 24 44 26 26 38 12Z"/>
 <path class="accent" d="M50 6 62 12 74 26 76 44 68 58 50 64 50 6Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 6 62 12 74 26 76 44 68 58 50 64 32 58 24 44 26 26 38 12Z"/>
-<path class="accent" d="M48 64.7 41.5 62.5 42.3 60.1 48.8 62.3ZM39.7 61.9 33.2 59.7 34 57.3 40.5 59.5ZM30.8 58.4 27.4 52.4 29.6 51.2 33 57.2Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M62 12 60 40 76 44M60 40 50 50"/>
-<path class="accent" d="M51.3 8.8 51.3 63.3 48.8 63.3 48.8 8.8Z"/>
+<path class="accent" d="M48 64.7 41.5 62.5 42.3 60.1 48.8 62.3ZM39.7 61.9 33.2 59.7 34 57.3 40.5 59.5ZM30.8 58.4 27.4 52.4 29.6 51.2 33 57.2ZM51.3 8.8 51.3 63.3 48.8 63.3 48.8 8.8Z"/>
 <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 10 50 62"/>
 <path class="accent" d="M34.8 22.8 51.3 22.8 51.3 25.3 34.8 25.3Z"/>
 <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 24 64 24"/>

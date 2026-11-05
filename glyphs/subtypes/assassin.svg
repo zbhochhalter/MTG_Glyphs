@@ -13,8 +13,6 @@
 <path fill="#000" d="M40 41 50.6 41 50.6 91.6 50 93 40 70Z"/>
 <path class="accent" d="M50 41 60 41 60 70 50 93Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M40 41 60 41 60 70 50 93 40 70Z"/>
-<path class="accent" d="M38.8 39.8 49.8 39.8 49.8 42.3 38.8 42.3Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 44 50 88M60 56 50 66"/>
-<path class="accent" d="M76 62 83 74 80 84 72 84 69 74Z"/>
+<path class="accent" d="M38.8 39.8 49.8 39.8 49.8 42.3 38.8 42.3ZM76 62 83 74 80 84 72 84 69 74Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M76 62 83 74 80 84 72 84 69 74Z"/>
 </svg>

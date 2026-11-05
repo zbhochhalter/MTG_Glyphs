@@ -9,8 +9,6 @@
 <path fill="#000" d="M30 54 50.6 54 50.6 93.7 50 94 38 88 30 74Z"/>
 <path class="accent" d="M50 54 70 54 70 74 62 88 50 94Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M30 54 70 54 70 74 62 88 50 94 38 88 30 74Z"/>
-<path class="accent" d="M45 52.8 50.5 52.8 50.5 55.3 45 55.3Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M70 54 56 74 62 88"/>
-<path class="accent" d="M51.3 56.8 51.3 87.3 48.8 87.3 48.8 56.8Z"/>
+<path class="accent" d="M45 52.8 50.5 52.8 50.5 55.3 45 55.3ZM51.3 56.8 51.3 87.3 48.8 87.3 48.8 56.8Z"/>
 <path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 58 50 86"/>
 </svg>

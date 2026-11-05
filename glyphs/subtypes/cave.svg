@@ -2,7 +2,6 @@
 <path fill="#000" fill-rule="evenodd" d="M6 88 10 60 20 38 36 22 50.6 18.8 50.6 88ZM50.6 42.2 50 42 38 48 30 64 28 88 50.6 88Z"/>
 <path class="accent" fill-rule="evenodd" d="M50 18.9 54 18 72 24 86 40 92 62 94 88 50 88ZM72 88 70 58 62 46 50 42 50 88Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M6 88 10 60 20 38 36 22 54 18 72 24 86 40 92 62 94 88ZM72 88 70 58 62 46 50 42 38 48 30 64 28 88Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M72 24 70 46M92 62 72 64"/>
 <path fill="#000" d="M38 48 42 48 40 58Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M38 48 42 48 40 58Z"/>
 <path class="accent" d="M36.8 46.8 43.3 46.8 43.3 49.3 36.8 49.3ZM37.6 52.3 36.5 47 39 46.5 40 51.8Z"/>

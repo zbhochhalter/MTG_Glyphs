@@ -6,7 +6,6 @@
 <path class="accent" fill-rule="evenodd" d="M50 36 80 36 80 80 50 80ZM50 80 68 80 68 46 50 46Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M20 36 80 36 80 80 20 80ZM32 80 68 80 68 46 32 46Z"/>
 <path class="accent" d="M18.8 34.8 25.8 34.8 25.8 37.3 18.8 37.3ZM18.8 38.7 18.8 34.8 21.3 34.8 21.3 38.7Z"/>
-<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M80 36 68 46"/>
 <path fill="#000" d="M8 80 50.6 80 50.6 92 8 92Z"/>
 <path class="accent" d="M50 80 92 80 92 92 50 92Z"/>
 <path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M8 80 92 80 92 92 8 92Z"/>
