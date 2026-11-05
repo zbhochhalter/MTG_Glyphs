@@ -1,0 +1,33 @@
+{
+  "name": "sketchbook-glyphs",
+  "version": "0.0.0",
+  "description": "Original two-tone SVG glyphs for Magic: The Gathering playtest proxies (Sketchbook style).",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "render": "node tools/render-art.mjs",
+    "validate": "node tools/validate.mjs",
+    "contact": "node tools/contact.mjs",
+    "manifest": "node tools/build-manifest.mjs",
+    "gallery": "node tools/gallery.mjs",
+    "todo": "node tools/todo.mjs",
+    "fetch-data": "node tools/fetch-data.mjs",
+    "build": "node tools/render-art.mjs && node tools/build-manifest.mjs && node tools/gallery.mjs && node tools/validate.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zbhochhalter/MTG_Glyphs.git"
+  },
+  "license": "(CC-BY-4.0 AND MIT)",
+  "bugs": {
+    "url": "https://github.com/zbhochhalter/MTG_Glyphs/issues"
+  },
+  "homepage": "https://github.com/zbhochhalter/MTG_Glyphs#readme",
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "playwright": "^1.63.0"
+  },
+  "type": "module",
+  "private": true
+}

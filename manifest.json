@@ -1,0 +1,20 @@
+{
+  "version": "0.0.0",
+  "cards": {},
+  "subtypes": {
+    "elk": "glyphs/subtypes/elk.svg"
+  },
+  "types": {
+    "artifact": "glyphs/types/artifact.svg",
+    "battle": "glyphs/types/battle.svg",
+    "creature": "glyphs/types/creature.svg",
+    "emblem": "glyphs/types/emblem.svg",
+    "enchantment": "glyphs/types/enchantment.svg",
+    "instant": "glyphs/types/instant.svg",
+    "kindred": "glyphs/types/kindred.svg",
+    "land": "glyphs/types/land.svg",
+    "planeswalker": "glyphs/types/planeswalker.svg",
+    "sorcery": "glyphs/types/sorcery.svg",
+    "token": "glyphs/types/token.svg"
+  }
+}
