@@ -209,7 +209,7 @@ export function render(layers) {
   };
   for (const ly of layers.flat(Infinity).filter(Boolean)) {
     if (ly.t === 'S' || ly.t === 'A') {
-      const poly = orient(ly.p), holes = (ly.holes || []).map(h => orient(h, false));
+      const poly = orient(pts(ly.p)), holes = (ly.holes || []).map(h => orient(pts(h), false));
       const eo = holes.length > 0;
       const all = [poly, ...holes];
       if (ly.t === 'A') push('acc', all.map(dPoly).join(''), undefined, eo);

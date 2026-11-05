@@ -33,7 +33,8 @@ for (const src of sources) {
       const tag = `${kind}/${key}`;
       if (seen.has(tag)) { console.error(`${tag} defined in both ${seen.get(tag)} and ${path.basename(src)}`); process.exitCode = 1; }
       seen.set(tag, path.basename(src));
-      fs.writeFileSync(path.join(ROOT, 'glyphs', kind, key + '.svg'), render(fn()));
+      try { fs.writeFileSync(path.join(ROOT, 'glyphs', kind, key + '.svg'), render(fn())); }
+      catch (e) { console.error(`${tag} (${name}): ${e.stack}`); process.exitCode = 1; continue; }
       n++;
     }
   }
