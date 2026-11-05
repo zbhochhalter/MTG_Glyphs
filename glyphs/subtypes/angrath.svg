@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M20 80 22 56 30 36 44 20 50.6 16.3 50.6 36.5 48 40 42 60 40 82Z"/>
+<path class="accent" d="M50 16.7 62 10 80 8 72 16 60 24 50 37.3Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M20 80 22 56 30 36 44 20 62 10 80 8 72 16 60 24 48 40 42 60 40 82Z"/>
+<path fill="#000" fill-rule="evenodd" d="M50.6 82.3 48 76 50.6 69.7Z"/>
+<path class="accent" fill-rule="evenodd" d="M58 66 65.1 68.9 68 76 65.1 83.1 58 86 50.9 83.1 50 80.8 50 71.2 50.9 68.9ZM55.2 73.2 54 76 55.2 78.8 58 80 60.8 78.8 62 76 60.8 73.2 58 72Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M58 66 65.1 68.9 68 76 65.1 83.1 58 86 50.9 83.1 48 76 50.9 68.9ZM55.2 73.2 54 76 55.2 78.8 58 80 60.8 78.8 62 76 60.8 73.2 58 72Z"/>
+<path class="accent" fill-rule="evenodd" d="M74 54 81.1 56.9 84 64 81.1 71.1 74 74 66.9 71.1 64 64 66.9 56.9ZM71.2 61.2 70 64 71.2 66.8 74 68 76.8 66.8 78 64 76.8 61.2 74 60Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M74 54 81.1 56.9 84 64 81.1 71.1 74 74 66.9 71.1 64 64 66.9 56.9ZM71.2 61.2 70 64 71.2 66.8 74 68 76.8 66.8 78 64 76.8 61.2 74 60Z"/>
+<path class="accent" fill-rule="evenodd" d="M86 39 92.4 41.6 95 48 92.4 54.4 86 57 79.6 54.4 77 48 79.6 41.6ZM83.2 45.2 82 48 83.2 50.8 86 52 88.8 50.8 90 48 88.8 45.2 86 44Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M86 39 92.4 41.6 95 48 92.4 54.4 86 57 79.6 54.4 77 48 79.6 41.6ZM83.2 45.2 82 48 83.2 50.8 86 52 88.8 50.8 90 48 88.8 45.2 86 44Z"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M50 6 50.6 6.9 50.6 70 38 70 26 63.6 18 49.2 20 33.2 28 39.6 32 22 40 28.4 44 15.6Z"/>
+<path class="accent" d="M50 6 60 20.4 70 17.2 76 34.8 82 30 82 49.2 74 63.6 62 70 50 70 50 6Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 6 60 20.4 70 17.2 76 34.8 82 30 82 49.2 74 63.6 62 70 38 70 26 63.6 18 49.2 20 33.2 28 39.6 32 22 40 28.4 44 15.6Z"/>
+<path fill="#000" d="M10 66 50.6 66 50.6 82 10 82Z"/>
+<path class="accent" d="M50 66 90 66 90 82 50 82Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M10 66 90 66 90 82 10 82Z"/>
+<path class="accent" d="M25 64.8 49.8 64.8 49.8 67.3 25 67.3ZM32 67 36.9 69.1 39 74 36.9 78.9 32 81 27.1 78.9 25 74 27.1 69.1Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M32 67 36.9 69.1 39 74 36.9 78.9 32 81 27.1 78.9 25 74 27.1 69.1Z"/>
+<path class="accent" d="M68 67 72.9 69.1 75 74 72.9 78.9 68 81 63.1 78.9 61 74 63.1 69.1Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M68 67 72.9 69.1 75 74 72.9 78.9 68 81 63.1 78.9 61 74 63.1 69.1Z"/>
+</svg>
