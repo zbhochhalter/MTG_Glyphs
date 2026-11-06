@@ -1,15 +1,31 @@
 // Checks every glyph against the file contract and the manifest.
-//   node tools/validate.mjs [--offline] [--no-oracle] [--quiet] [files...]
+//   node tools/validate.mjs [--set name|--all-sets] [--offline] [--no-oracle] [--quiet] [files...]
 // --offline uses the cached oracle index even if it is stale.
 // Exit code 1 on any error. Warnings are printed but don't fail.
 import fs from 'node:fs';
 import path from 'node:path';
 import { Resvg } from '@resvg/resvg-js';
-import { ROOT, listGlyphs, readJSON, oracleIndex } from './lib/common.mjs';
+import { ROOT, listGlyphs, readJSON, oracleIndex, argSet, SETS } from './lib/common.mjs';
+import { spawnSync } from 'node:child_process';
 
 const args = process.argv.slice(2);
 const flag = f => args.includes(f);
-const only = args.filter(a => a.endsWith('.svg')).map(a => path.relative(ROOT, path.resolve(a)));
+// --all-sets: run this script once per set and fail if any fails
+if (args.includes('--all-sets')) {
+  const rest = args.filter(a => a !== '--all-sets');
+  let bad = 0;
+  for (const name of Object.keys(SETS.sets)) {
+    console.log(`== ${name}`);
+    const r = spawnSync(process.execPath, [process.argv[1], '--set', name, ...rest], { stdio: 'inherit' });
+    bad ||= r.status;
+  }
+  process.exit(bad ? 1 : 0);
+}
+const set = argSet();
+// a sign-system set (one that has radicals) follows the stricter Hieroglyph rules
+const SIGNS = readJSON(path.join(set.path, 'signs.json'), null);
+const STROKE = SIGNS ? 4.5 : null;
+const only = args.filter(a => a.endsWith('.svg')).map(a => path.relative(set.path, path.resolve(a)));
 
 const MAX_BYTES = 6 * 1024;
 const ELEMENTS = new Set(['svg', 'g', 'path', 'polygon', 'polyline', 'rect', 'circle', 'ellipse', 'line']);
@@ -17,10 +33,10 @@ const GEOM = ['d', 'points', 'x', 'y', 'width', 'height', 'cx', 'cy', 'r', 'rx',
 const PAINT = ['fill', 'stroke', 'stroke-width', 'stroke-linejoin', 'stroke-linecap', 'stroke-miterlimit', 'fill-rule', 'class'];
 const ATTRS = new Set([...GEOM, ...PAINT]);
 // balance thresholds, measured on the rasterised glyph
-const BAL = { leftInk: 0.55, rightAcc: 0.22, minAcc: 0.12 };
+const BAL = SIGNS ? { leftInk: 0.55, rightAcc: 0.15, minAcc: 0.06 } : { leftInk: 0.55, rightAcc: 0.22, minAcc: 0.12 };
 
 const errors = [], warnings = [];
-const NAMES = Object.fromEntries(Object.entries(readJSON(path.join(ROOT, 'manifest.json'), {}).cards || {}).map(([k, v]) => [`glyphs/cards/${k}.svg`, v.name]));
+const NAMES = Object.fromEntries(Object.entries(readJSON(set.manifestPath, {}).cards || {}).map(([k, v]) => [`glyphs/cards/${k}.svg`, v.name]));
 const label = f => (NAMES[f] ? `${f} (${NAMES[f]})` : f);
 const err = (f, m) => errors.push(`${label(f)}: ${m}`);
 const warn = (f, m) => warnings.push(`${label(f)}: ${m}`);
@@ -54,7 +70,7 @@ function parse(txt, f) {
 }
 
 function checkFile(g) {
-  const f = g.file, abs = path.join(ROOT, f);
+  const f = g.file, abs = g.abs;
   const buf = fs.readFileSync(abs), txt = buf.toString('utf8');
   if (buf.length > MAX_BYTES) err(f, `${buf.length} bytes, over ${MAX_BYTES}`);
   const nodes = parse(txt, f);
@@ -82,6 +98,7 @@ function checkFile(g) {
         const w = +v; maxW = Math.max(maxW, w);
         if (!(w >= 2)) err(f, `stroke-width ${v} under 2`);
         if (w > 5) err(f, `stroke-width ${v} over 5`);
+        if (STROKE && w !== STROKE) err(f, `stroke-width ${v}: this set uses ${STROKE} everywhere`);
       }
     }
     if (n.attrs.class === 'accent') {
@@ -93,6 +110,8 @@ function checkFile(g) {
     }
     if (n.name === 'g' && n.attrs.class) err(f, 'class not allowed on <g>');
   }
+  // radicals are ink-only by definition
+  if (g.kind === 'radicals') return;
   if (!accents) err(f, 'no accent shapes');
   if (maxW && maxW < 3.5) warn(f, `heaviest stroke is ${maxW}; outlines should be 3.5 to 5`);
   balance(f, txt);
@@ -129,35 +148,48 @@ function balance(f, txt) {
   if (bb[0] < 2 || bb[1] < 2 || bb[2] > 98 || bb[3] > 98) err(f, `paint reaches the edge (${bb.map(v => v.toFixed(0)).join(',')})`);
   else if (bb[0] < 4 || bb[1] < 4 || bb[2] > 96 || bb[3] > 96) warn(f, `crowds the edge (${bb.map(v => v.toFixed(0)).join(',')})`);
   const cx = (bb[0] + bb[2]) / 2, cy = (bb[1] + bb[3]) / 2;
-  if (Math.abs(cx - 50) > 8 || Math.abs(cy - 50) > 10) warn(f, `off centre (${cx.toFixed(0)},${cy.toFixed(0)})`);
+  if (!SIGNS && (Math.abs(cx - 50) > 8 || Math.abs(cy - 50) > 10)) warn(f, `off centre (${cx.toFixed(0)},${cy.toFixed(0)})`);
   if (bb[2] - bb[0] < 50 && bb[3] - bb[1] < 50) warn(f, 'small: fills less than half the square');
   if (flag('--stats')) console.log(f, JSON.stringify({ leftInk: +leftInk.toFixed(2), rightAcc: +rightAcc.toFixed(2), acc: +acc.toFixed(2), bbox: bb.map(Math.round) }));
 }
 
-const all = listGlyphs();
+const all = listGlyphs(set);
 const glyphs = only.length ? all.filter(g => only.includes(g.file)) : all;
 for (const g of glyphs) checkFile(g);
 
 if (!only.length) {
-  const man = readJSON(path.join(ROOT, 'manifest.json'));
-  if (!man) err('manifest.json', 'missing');
+  const man = readJSON(set.manifestPath);
+  const mf = path.relative(ROOT, set.manifestPath);
+  if (!man) err(mf, 'missing');
   else {
-    if (!/^\d+\.\d+\.\d+$/.test(man.version || '')) err('manifest.json', 'version must be semver');
+    if (!/^\d+\.\d+\.\d+$/.test(man.version || '')) err(mf, 'version must be semver');
+    if (man.version !== SETS.version) err(mf, `version ${man.version} differs from sets.json ${SETS.version}; the sets are versioned together`);
     const listed = new Set();
-    for (const kind of ['cards', 'subtypes', 'types']) {
+    const kinds = SIGNS ? ['cards', 'subtypes', 'types', 'radicals'] : ['cards', 'subtypes', 'types'];
+    for (const kind of kinds) {
       for (const [k, v] of Object.entries(man[kind] || {})) {
-        const file = kind === 'cards' ? v.file : v;
-        if (kind === 'cards' && !v.name) err('manifest.json', `card ${k} has no name`);
-        if (file !== `glyphs/${kind}/${k}.svg`) err('manifest.json', `${kind}.${k} points at ${file}`);
-        if (!fs.existsSync(path.join(ROOT, file))) err('manifest.json', `${kind}.${k}: no file ${file}`);
+        const file = typeof v === 'string' ? v : v.file;
+        if (kind === 'cards' && !v.name) err(mf, `card ${k} has no name`);
+        if (file !== `glyphs/${kind}/${k}.svg`) err(mf, `${kind}.${k} points at ${file}`);
+        if (!fs.existsSync(path.join(set.path, file))) err(mf, `${kind}.${k}: no file ${file}`);
         listed.add(file);
+        // the grammar: every sign names its radicals and determinative, and they must exist
+        if (SIGNS && kind !== 'radicals') {
+          if (!Array.isArray(v.radicals)) err(mf, `${kind}.${k} has no radicals list`);
+          else {
+            if (v.radicals.length > 2) err(mf, `${kind}.${k} has ${v.radicals.length} radicals (max 2)`);
+            for (const r of v.radicals) if (!fs.existsSync(path.join(set.path, 'glyphs/radicals', r + '.svg'))) err(mf, `${kind}.${k} uses radical "${r}", which has no glyphs/radicals/${r}.svg`);
+          }
+          if (!v.determinative) err(mf, `${kind}.${k} has no determinative`);
+          else if (!(man.determinatives || {})[v.determinative]) err(mf, `${kind}.${k} uses unknown determinative "${v.determinative}"`);
+        }
       }
     }
     for (const g of all) if (!listed.has(g.file)) err(g.file, 'no manifest entry');
     if (!flag('--no-oracle')) {
       try {
         const idx = await oracleIndex({ offline: flag('--offline') });
-        for (const id of Object.keys(man.cards || {})) if (!idx.ids[id]) err('manifest.json', `oracle id ${id} unknown to Scryfall`);
+        for (const id of Object.keys(man.cards || {})) if (!idx.ids[id]) err(mf, `oracle id ${id} unknown to Scryfall`);
         for (const g of all.filter(g => g.kind === 'cards')) if (!/^[0-9a-f-]{36}$/.test(g.key)) err(g.file, 'card files are named <oracle_id>.svg');
       } catch (e) { err('oracle check', e.message); }
     }
@@ -166,5 +198,5 @@ if (!only.length) {
 
 if (!flag('--quiet')) for (const w of warnings) console.log('warning ' + w);
 for (const e of errors) console.log('error   ' + e);
-console.log(`${glyphs.length} glyphs checked: ${errors.length} errors, ${warnings.length} warnings`);
+console.log(`${set.name}: ${glyphs.length} glyphs checked: ${errors.length} errors, ${warnings.length} warnings`);
 process.exit(errors.length ? 1 : 0);

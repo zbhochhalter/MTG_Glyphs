@@ -90,12 +90,24 @@ export async function oracleIndex({ maxAgeDays = 7, offline = false } = {}) {
   return out;
 }
 
-export function listGlyphs() {
+// ---- glyph sets (sets.json). Each set has its own glyphs/ folder and
+// manifest; file paths in a manifest are relative to the set's folder.
+export const SETS = readJSON(path.join(ROOT, 'sets.json'));
+export function setInfo(name = SETS.default) {
+  const s = SETS.sets[name];
+  if (!s) throw new Error(`unknown set "${name}" (sets: ${Object.keys(SETS.sets).join(', ')})`);
+  const dir = path.join(ROOT, s.dir);
+  return { name, ...s, path: dir, manifestPath: path.join(ROOT, s.manifest), artPath: path.join(ROOT, s.art), abs: f => path.join(dir, f) };
+}
+// --set <name> from argv, else the default set
+export const argSet = (argv = process.argv) => setInfo(argv.includes('--set') ? argv[argv.indexOf('--set') + 1] : undefined);
+export const KINDS = ['cards', 'subtypes', 'types', 'radicals'];
+export function listGlyphs(set = setInfo()) {
   const res = [];
-  for (const kind of ['cards', 'subtypes', 'types']) {
-    const dir = path.join(ROOT, 'glyphs', kind);
+  for (const kind of KINDS) {
+    const dir = path.join(set.path, 'glyphs', kind);
     if (!fs.existsSync(dir)) continue;
-    for (const f of fs.readdirSync(dir).sort()) if (f.endsWith('.svg')) res.push({ kind, key: f.slice(0, -4), file: `glyphs/${kind}/${f}` });
+    for (const f of fs.readdirSync(dir).sort()) if (f.endsWith('.svg')) res.push({ kind, key: f.slice(0, -4), file: `glyphs/${kind}/${f}`, abs: path.join(dir, f) });
   }
   return res;
 }

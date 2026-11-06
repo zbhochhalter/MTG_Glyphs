@@ -27,5 +27,7 @@ jobs:
       - name: Glyphs match their sources
         run: |
           node tools/render-art.mjs
-          git diff --exit-code -- glyphs
-      - run: node tools/validate.mjs
+          node tools/render-art.mjs --set hieroglyph
+          git diff --exit-code -- glyphs sets
+      - name: Validate every set
+        run: node tools/validate.mjs --all-sets

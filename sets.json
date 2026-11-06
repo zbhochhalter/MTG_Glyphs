@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "default": "sketchbook",
+  "sets": {
+    "sketchbook": {
+      "title": "Sketchbook",
+      "description": "Faceted two-tone glyphs: ink on the left, card colour on the right.",
+      "dir": ".",
+      "manifest": "manifest.json",
+      "art": "art"
+    },
+    "hieroglyph": {
+      "title": "Hieroglyph",
+      "description": "A pictographic sign system: pictograms, radicals, type determinatives and cartouches.",
+      "dir": "sets/hieroglyph",
+      "manifest": "sets/hieroglyph/manifest.json",
+      "art": "sets/hieroglyph/art"
+    }
+  }
+}

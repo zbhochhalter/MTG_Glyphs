@@ -1,0 +1,269 @@
+{
+  "radicals": {
+    "flame": {
+      "meaning": "red; fire, damage"
+    },
+    "wave": {
+      "meaning": "blue; water, the mind"
+    },
+    "leaf": {
+      "meaning": "green; growth, nature"
+    },
+    "sun": {
+      "meaning": "white; light, order"
+    },
+    "crescent": {
+      "meaning": "black; night, death"
+    },
+    "gear": {
+      "meaning": "artifact; colourless, machines"
+    },
+    "eye": {
+      "meaning": "look at, scry, reveal"
+    },
+    "hand": {
+      "meaning": "draw, return to hand"
+    },
+    "cross": {
+      "meaning": "counter, negate"
+    },
+    "shield": {
+      "meaning": "protection, prevent"
+    },
+    "wing": {
+      "meaning": "flying, evasion"
+    },
+    "jag": {
+      "meaning": "damage, lightning"
+    },
+    "down": {
+      "meaning": "destroy, sacrifice"
+    },
+    "plus": {
+      "meaning": "counters, grow"
+    },
+    "loop": {
+      "meaning": "untap, again"
+    },
+    "crown": {
+      "meaning": "legendary, rule"
+    },
+    "heart": {
+      "meaning": "life, gain life"
+    },
+    "key": {
+      "meaning": "search, tutor"
+    },
+    "card": {
+      "meaning": "a card"
+    },
+    "gem": {
+      "meaning": "mana, treasure"
+    },
+    "spiral": {
+      "meaning": "exile, banish"
+    }
+  },
+  "types": {
+    "creature": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "instant": {
+      "radicals": [],
+      "determinative": "instant"
+    },
+    "sorcery": {
+      "radicals": [],
+      "determinative": "sorcery"
+    },
+    "enchantment": {
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "artifact": {
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "land": {
+      "radicals": [],
+      "determinative": "land"
+    },
+    "planeswalker": {
+      "radicals": [],
+      "determinative": "planeswalker"
+    },
+    "battle": {
+      "radicals": [],
+      "determinative": "battle"
+    },
+    "kindred": {
+      "radicals": [],
+      "determinative": "kindred"
+    },
+    "token": {
+      "radicals": [],
+      "determinative": "token"
+    },
+    "emblem": {
+      "radicals": [],
+      "determinative": "emblem"
+    }
+  },
+  "subtypes": {
+    "elk": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "goblin": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "dragon": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "wizard": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "angel": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "zombie": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "merfolk": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "elf": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "human": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "soldier": {
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "island": {
+      "radicals": [
+        "wave"
+      ],
+      "determinative": "land"
+    },
+    "forest": {
+      "radicals": [
+        "leaf"
+      ],
+      "determinative": "land"
+    },
+    "equipment": {
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "aura": {
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "saga": {
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "vehicle": {
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "treasure": {
+      "radicals": [
+        "gem"
+      ],
+      "determinative": "artifact"
+    },
+    "garruk": {
+      "radicals": [
+        "leaf"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    },
+    "teferi": {
+      "radicals": [
+        "sun",
+        "wave"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    },
+    "jace": {
+      "radicals": [
+        "wave",
+        "eye"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    }
+  },
+  "cards": {
+    "4457ed35-7c10-48c8-9776-456485fdf070": {
+      "radicals": [
+        "flame"
+      ],
+      "determinative": "instant"
+    },
+    "6ad8011d-3471-4369-9d68-b264cc027487": {
+      "radicals": [
+        "sun",
+        "gem"
+      ],
+      "determinative": "artifact"
+    },
+    "cc187110-1148-4090-bbb8-e205694a39f5": {
+      "radicals": [
+        "cross",
+        "wave"
+      ],
+      "determinative": "instant"
+    }
+  },
+  "determinatives": {
+    "creature": {
+      "meaning": "Creature: two legs"
+    },
+    "instant": {
+      "meaning": "Instant: a quick arrow"
+    },
+    "sorcery": {
+      "meaning": "Sorcery: a bowl"
+    },
+    "enchantment": {
+      "meaning": "Enchantment: a frame bracket"
+    },
+    "artifact": {
+      "meaning": "Artifact: a box"
+    },
+    "land": {
+      "meaning": "Land: a ground line under a hill"
+    },
+    "planeswalker": {
+      "meaning": "Planeswalker: an arch"
+    },
+    "battle": {
+      "meaning": "Battle: a flag"
+    },
+    "kindred": {
+      "meaning": "Kindred: three of a kind"
+    },
+    "token": {
+      "meaning": "Token: a counter disc"
+    },
+    "emblem": {
+      "meaning": "Emblem: a diamond"
+    }
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "set": "hieroglyph",
+  "version": "0.2.0",
+  "cards": {
+    "cc187110-1148-4090-bbb8-e205694a39f5": {
+      "name": "Counterspell",
+      "file": "glyphs/cards/cc187110-1148-4090-bbb8-e205694a39f5.svg",
+      "radicals": [
+        "cross",
+        "wave"
+      ],
+      "determinative": "instant"
+    },
+    "4457ed35-7c10-48c8-9776-456485fdf070": {
+      "name": "Lightning Bolt",
+      "file": "glyphs/cards/4457ed35-7c10-48c8-9776-456485fdf070.svg",
+      "radicals": [
+        "flame"
+      ],
+      "determinative": "instant"
+    },
+    "6ad8011d-3471-4369-9d68-b264cc027487": {
+      "name": "Sol Ring",
+      "file": "glyphs/cards/6ad8011d-3471-4369-9d68-b264cc027487.svg",
+      "radicals": [
+        "sun",
+        "gem"
+      ],
+      "determinative": "artifact"
+    }
+  },
+  "subtypes": {
+    "angel": {
+      "file": "glyphs/subtypes/angel.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "aura": {
+      "file": "glyphs/subtypes/aura.svg",
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "dragon": {
+      "file": "glyphs/subtypes/dragon.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "elf": {
+      "file": "glyphs/subtypes/elf.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "elk": {
+      "file": "glyphs/subtypes/elk.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "equipment": {
+      "file": "glyphs/subtypes/equipment.svg",
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "forest": {
+      "file": "glyphs/subtypes/forest.svg",
+      "radicals": [
+        "leaf"
+      ],
+      "determinative": "land"
+    },
+    "garruk": {
+      "file": "glyphs/subtypes/garruk.svg",
+      "radicals": [
+        "leaf"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    },
+    "goblin": {
+      "file": "glyphs/subtypes/goblin.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "human": {
+      "file": "glyphs/subtypes/human.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "island": {
+      "file": "glyphs/subtypes/island.svg",
+      "radicals": [
+        "wave"
+      ],
+      "determinative": "land"
+    },
+    "jace": {
+      "file": "glyphs/subtypes/jace.svg",
+      "radicals": [
+        "wave",
+        "eye"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    },
+    "merfolk": {
+      "file": "glyphs/subtypes/merfolk.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "saga": {
+      "file": "glyphs/subtypes/saga.svg",
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "soldier": {
+      "file": "glyphs/subtypes/soldier.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "teferi": {
+      "file": "glyphs/subtypes/teferi.svg",
+      "radicals": [
+        "sun",
+        "wave"
+      ],
+      "determinative": "planeswalker",
+      "cartouche": true
+    },
+    "treasure": {
+      "file": "glyphs/subtypes/treasure.svg",
+      "radicals": [
+        "gem"
+      ],
+      "determinative": "artifact"
+    },
+    "vehicle": {
+      "file": "glyphs/subtypes/vehicle.svg",
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "wizard": {
+      "file": "glyphs/subtypes/wizard.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "zombie": {
+      "file": "glyphs/subtypes/zombie.svg",
+      "radicals": [],
+      "determinative": "creature"
+    }
+  },
+  "types": {
+    "artifact": {
+      "file": "glyphs/types/artifact.svg",
+      "radicals": [],
+      "determinative": "artifact"
+    },
+    "battle": {
+      "file": "glyphs/types/battle.svg",
+      "radicals": [],
+      "determinative": "battle"
+    },
+    "creature": {
+      "file": "glyphs/types/creature.svg",
+      "radicals": [],
+      "determinative": "creature"
+    },
+    "emblem": {
+      "file": "glyphs/types/emblem.svg",
+      "radicals": [],
+      "determinative": "emblem"
+    },
+    "enchantment": {
+      "file": "glyphs/types/enchantment.svg",
+      "radicals": [],
+      "determinative": "enchantment"
+    },
+    "instant": {
+      "file": "glyphs/types/instant.svg",
+      "radicals": [],
+      "determinative": "instant"
+    },
+    "kindred": {
+      "file": "glyphs/types/kindred.svg",
+      "radicals": [],
+      "determinative": "kindred"
+    },
+    "land": {
+      "file": "glyphs/types/land.svg",
+      "radicals": [],
+      "determinative": "land"
+    },
+    "planeswalker": {
+      "file": "glyphs/types/planeswalker.svg",
+      "radicals": [],
+      "determinative": "planeswalker"
+    },
+    "sorcery": {
+      "file": "glyphs/types/sorcery.svg",
+      "radicals": [],
+      "determinative": "sorcery"
+    },
+    "token": {
+      "file": "glyphs/types/token.svg",
+      "radicals": [],
+      "determinative": "token"
+    }
+  },
+  "radicals": {
+    "card": {
+      "file": "glyphs/radicals/card.svg",
+      "meaning": "a card"
+    },
+    "crescent": {
+      "file": "glyphs/radicals/crescent.svg",
+      "meaning": "black; night, death"
+    },
+    "cross": {
+      "file": "glyphs/radicals/cross.svg",
+      "meaning": "counter, negate"
+    },
+    "crown": {
+      "file": "glyphs/radicals/crown.svg",
+      "meaning": "legendary, rule"
+    },
+    "down": {
+      "file": "glyphs/radicals/down.svg",
+      "meaning": "destroy, sacrifice"
+    },
+    "eye": {
+      "file": "glyphs/radicals/eye.svg",
+      "meaning": "look at, scry, reveal"
+    },
+    "flame": {
+      "file": "glyphs/radicals/flame.svg",
+      "meaning": "red; fire, damage"
+    },
+    "gear": {
+      "file": "glyphs/radicals/gear.svg",
+      "meaning": "artifact; colourless, machines"
+    },
+    "gem": {
+      "file": "glyphs/radicals/gem.svg",
+      "meaning": "mana, treasure"
+    },
+    "hand": {
+      "file": "glyphs/radicals/hand.svg",
+      "meaning": "draw, return to hand"
+    },
+    "heart": {
+      "file": "glyphs/radicals/heart.svg",
+      "meaning": "life, gain life"
+    },
+    "jag": {
+      "file": "glyphs/radicals/jag.svg",
+      "meaning": "damage, lightning"
+    },
+    "key": {
+      "file": "glyphs/radicals/key.svg",
+      "meaning": "search, tutor"
+    },
+    "leaf": {
+      "file": "glyphs/radicals/leaf.svg",
+      "meaning": "green; growth, nature"
+    },
+    "loop": {
+      "file": "glyphs/radicals/loop.svg",
+      "meaning": "untap, again"
+    },
+    "plus": {
+      "file": "glyphs/radicals/plus.svg",
+      "meaning": "counters, grow"
+    },
+    "shield": {
+      "file": "glyphs/radicals/shield.svg",
+      "meaning": "protection, prevent"
+    },
+    "spiral": {
+      "file": "glyphs/radicals/spiral.svg",
+      "meaning": "exile, banish"
+    },
+    "sun": {
+      "file": "glyphs/radicals/sun.svg",
+      "meaning": "white; light, order"
+    },
+    "wave": {
+      "file": "glyphs/radicals/wave.svg",
+      "meaning": "blue; water, the mind"
+    },
+    "wing": {
+      "file": "glyphs/radicals/wing.svg",
+      "meaning": "flying, evasion"
+    }
+  },
+  "determinatives": {
+    "creature": {
+      "meaning": "Creature: two legs"
+    },
+    "instant": {
+      "meaning": "Instant: a quick arrow"
+    },
+    "sorcery": {
+      "meaning": "Sorcery: a bowl"
+    },
+    "enchantment": {
+      "meaning": "Enchantment: a frame bracket"
+    },
+    "artifact": {
+      "meaning": "Artifact: a box"
+    },
+    "land": {
+      "meaning": "Land: a ground line under a hill"
+    },
+    "planeswalker": {
+      "meaning": "Planeswalker: an arch"
+    },
+    "battle": {
+      "meaning": "Battle: a flag"
+    },
+    "kindred": {
+      "meaning": "Kindred: three of a kind"
+    },
+    "token": {
+      "meaning": "Token: a counter disc"
+    },
+    "emblem": {
+      "meaning": "Emblem: a diamond"
+    }
+  }
+}

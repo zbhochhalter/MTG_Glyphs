@@ -1,6 +1,6 @@
 {
   "name": "sketchbook-glyphs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Original two-tone SVG glyphs for Magic: The Gathering playtest proxies (Sketchbook style).",
   "directories": {
     "doc": "docs"

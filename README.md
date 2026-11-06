@@ -8,6 +8,15 @@ An open library of original, two-tone SVG glyphs for Magic: The Gathering cards.
 
 The gallery is at <https://zbhochhalter.github.io/MTG_Glyphs/> once GitHub Pages is enabled (see [Publishing](#publishing)).
 
+## Glyph sets
+
+The repository holds two independent sets that cover the same keys and follow the same file contract. Consumers choose one. `sets.json` lists them, with the path to each set's manifest. File paths inside a manifest are relative to that manifest's folder.
+
+- **Sketchbook** (the root `manifest.json` and `glyphs/`): faceted two-tone glyphs. Its style is described below and in [STYLE.md](STYLE.md).
+- **Hieroglyph** (`sets/hieroglyph/`): a pictographic sign system. Each sign is a pictogram plus up to two radicals plus a type determinative, and named things sit in a cartouche. The grammar is in [sets/hieroglyph/STYLE.md](sets/hieroglyph/STYLE.md). It is in progress: the grammar and a specimen are drawn, and the full set follows after review.
+
+The sets are versioned together, so one tag releases both.
+
 ## Using the glyphs
 
 Fetch from jsDelivr at a release tag. It serves with `Access-Control-Allow-Origin: *`, so browsers can read the files directly:

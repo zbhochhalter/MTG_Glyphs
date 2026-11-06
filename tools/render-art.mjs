@@ -3,17 +3,25 @@
 // types: {...}, cards: {"Card Name": () => layers} }. Cards are written as
 // glyphs/cards/<oracle_id>.svg, so the oracle index is needed for them.
 // Hand-drawn SVGs that have no art source are left alone.
-//   node tools/render-art.mjs [--only key,key] [art/file.mjs ...]
+//   node tools/render-art.mjs [--set name] [--only key,key] [art/file.mjs ...]
+// For sets other than Sketchbook, sources live in <set>/art/ and each
+// function returns a composed sign { svg, radicals, determinative, cartouche }
+// (see tools/lib/hierokit.mjs); the grammar of every sign is recorded in
+// <set>/signs.json for build-manifest. Radicals registered by the set's
+// grammar are written to <set>/glyphs/radicals/.
 import fs from 'node:fs';
 import path from 'node:path';
 import { pathToFileURL } from 'node:url';
 import { render, X, pts, lines } from './lib/glyphkit.mjs';
-import { ROOT, oracleIndex, keyOf } from './lib/common.mjs';
+import { ROOT, oracleIndex, keyOf, argSet, readJSON, writeJSON } from './lib/common.mjs';
 
 const args = process.argv.slice(2);
 const only = args.includes('--only') ? new Set(args[args.indexOf('--only') + 1].split(',')) : null;
 const files = args.filter(a => a.endsWith('.mjs'));
-const artDir = path.join(ROOT, 'art');
+const set = argSet();
+const artDir = set.artPath;
+const signsPath = path.join(set.path, 'signs.json');
+const signs = readJSON(signsPath, { radicals: {}, types: {}, subtypes: {}, cards: {} });
 const sources = files.length ? files.map(f => path.resolve(f)) : fs.readdirSync(artDir).filter(f => f.endsWith('.mjs') && !f.startsWith('_')).sort().map(f => path.join(artDir, f));
 
 let idx = null, n = 0;
@@ -48,10 +56,30 @@ for (const src of sources) {
       const tag = `${kind}/${key}`;
       if (seen.has(tag)) { console.error(`${tag} defined in both ${seen.get(tag)} and ${path.basename(src)}`); process.exitCode = 1; }
       seen.set(tag, path.basename(src));
-      try { fs.writeFileSync(path.join(ROOT, 'glyphs', kind, key + '.svg'), render(mod.autofit ? fit(fn()) : fn())); }
+      try {
+        const outDir = path.join(set.path, 'glyphs', kind);
+        fs.mkdirSync(outDir, { recursive: true });
+        const res = fn();
+        if (res && typeof res.svg === 'string') {
+          fs.writeFileSync(path.join(outDir, key + '.svg'), res.svg);
+          signs[kind][key] = { radicals: res.radicals, determinative: res.determinative, ...(res.cartouche ? { cartouche: true } : {}) };
+        } else fs.writeFileSync(path.join(outDir, key + '.svg'), render(mod.autofit ? fit(res) : res));
+      }
       catch (e) { console.error(`${tag} (${name}): ${e.stack}`); process.exitCode = 1; continue; }
       n++;
     }
   }
 }
-console.log(`rendered ${n} glyphs`);
+if (set.name !== 'sketchbook') {
+  const kit = await import('./lib/hierokit.mjs');
+  const outDir = path.join(set.path, 'glyphs', 'radicals');
+  fs.mkdirSync(outDir, { recursive: true });
+  for (const [key, r] of Object.entries(kit.RADICALS)) {
+    fs.writeFileSync(path.join(outDir, key + '.svg'), kit.radicalSheet(key).svg);
+    signs.radicals[key] = { meaning: r.meaning };
+    n++;
+  }
+  signs.determinatives = Object.fromEntries(Object.entries(kit.DETS).map(([k, d]) => [k, { meaning: d.meaning }]));
+  writeJSON(signsPath, signs);
+}
+console.log(`rendered ${n} glyphs (${set.name})`);
