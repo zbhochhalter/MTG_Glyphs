@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M13.2 43.3 30.8 43.3 32.6 45 32.6 75 30.8 76.7 13.2 76.7 11.4 75 11.4 45Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M13.2 43.3 30.8 43.3 32.6 45 32.6 75 30.8 76.7 13.2 76.7 11.4 75 11.4 45Z"/>
+<path class="accent" d="M13.7 46.4 30.3 46.4 30.3 48.9 13.7 48.9ZM30.3 46.4 30.3 73.6 27.8 73.6 27.8 46.4ZM30.3 73.6 13.7 73.6 13.7 71.1 30.3 71.1ZM13.7 73.6 13.7 46.4 16.2 46.4 16.2 73.6ZM69.2 43.3 86.8 43.3 88.6 45 88.6 75 86.8 76.7 69.2 76.7 67.4 75 67.4 45Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M69.2 43.3 86.8 43.3 88.6 45 88.6 75 86.8 76.7 69.2 76.7 67.4 75 67.4 45Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M71 47.7 85 47.7 85 72.3 71 72.3 71 47.7"/>
+<path fill="#000" d="M39.2 27.5 50.6 27.5 50.6 68.5 39.2 68.5 37 66.4 37 29.6Z"/>
+<path class="accent" d="M50 27.5 60.8 27.5 63 29.6 63 66.4 60.8 68.5 50 68.5Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M39.2 27.5 60.8 27.5 63 29.6 63 66.4 60.8 68.5 39.2 68.5 37 66.4 37 29.6Z"/>
+<path class="accent" d="M40.1 31.6 51.3 31.6 51.3 34.1 40.1 34.1ZM51.3 64.4 40.1 64.4 40.1 61.9 51.3 61.9ZM40.1 64.4 40.1 31.6 42.6 31.6 42.6 64.4Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 32.9 58.6 32.9 58.6 63.1 50 63.1"/>
+<path fill="#000" d="M50 39 50.6 40.4 50.6 51.6 50 53 47.9 48.1 43 46 47.9 43.9Z"/>
+<path class="accent" d="M50 39 52.1 43.9 57 46 52.1 48.1 50 53 50 39Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 39 52.1 43.9 57 46 52.1 48.1 50 53 47.9 48.1 43 46 47.9 43.9Z"/>
+<path class="accent" d="M48.8 53.4 46.2 47.5 48.5 46.5 51.1 52.4ZM48.5 49.8 41.4 46.6 42.4 44.4 49.5 47.5ZM41.4 45.4 48.5 42.2 49.5 44.5 42.4 47.6ZM46.2 44.5 48.8 38.6 51.1 39.6 48.5 45.5Z"/>
+</svg>

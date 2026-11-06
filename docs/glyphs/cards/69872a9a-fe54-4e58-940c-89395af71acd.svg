@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M50.6 64.6 40 54 50.6 42.3Z"/>
+<path class="accent" d="M80 10 92 22 52 66 50 64 50 43Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M80 10 92 22 52 66 40 54Z"/>
+<path fill="#000" d="M36 48 47 50.9 50.6 54.5 50.6 85.5 47 89.1 36 92 25 89.1 16.9 81 14 70 16.9 59 25 50.9Z"/>
+<path class="accent" d="M50 53.9 55.1 59 58 70 55.1 81 50 86.1Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M36 48 47 50.9 55.1 59 58 70 55.1 81 47 89.1 36 92 25 89.1 16.9 81 14 70 16.9 59 25 50.9Z"/>
+<path class="accent" d="M44.7 49 48.5 50.1 47.9 52.5 44.1 51.5Z"/>
+<path fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" d="M64 16 88 8M70 28 92 24"/>
+</svg>
