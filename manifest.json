@@ -9,6 +9,10 @@
       "name": "Abrupt Decay",
       "file": "glyphs/cards/1c747fe2-289e-492a-a846-aa77707e2dc3.svg"
     },
+    "6511f317-bd38-46d0-b800-7125a3f420da": {
+      "name": "Aesi, Tyrant of Gyre Strait",
+      "file": "glyphs/cards/6511f317-bd38-46d0-b800-7125a3f420da.svg"
+    },
     "7c779721-cd1b-4696-9ae9-68ccc284ed2a": {
       "name": "Aetherize",
       "file": "glyphs/cards/7c779721-cd1b-4696-9ae9-68ccc284ed2a.svg"
@@ -21,9 +25,17 @@
       "name": "An Offer You Can't Refuse",
       "file": "glyphs/cards/234a734b-ba28-4f1b-9d01-3c3e7d516590.svg"
     },
+    "eaabd151-2160-4bff-82c0-3fa88659be98": {
+      "name": "Anger",
+      "file": "glyphs/cards/eaabd151-2160-4bff-82c0-3fa88659be98.svg"
+    },
     "ad09b3c3-c8e7-481c-8c45-e7f234935117": {
       "name": "Anguished Unmaking",
       "file": "glyphs/cards/ad09b3c3-c8e7-481c-8c45-e7f234935117.svg"
+    },
+    "05551d91-50c6-46d1-86a4-cd3d177d0923": {
+      "name": "Anim Pakal, Thousandth Moon",
+      "file": "glyphs/cards/05551d91-50c6-46d1-86a4-cd3d177d0923.svg"
     },
     "c0d8fef4-65f4-4769-982d-b397d2b7e977": {
       "name": "Animate Dead",
@@ -32,6 +44,10 @@
     "4c3ad545-b375-44a7-a24e-58baacc4e4b6": {
       "name": "Annie Joins Up",
       "file": "glyphs/cards/4c3ad545-b375-44a7-a24e-58baacc4e4b6.svg"
+    },
+    "7246d45b-2185-4cdd-981b-5419b7d52bce": {
+      "name": "Anointed Procession",
+      "file": "glyphs/cards/7246d45b-2185-4cdd-981b-5419b7d52bce.svg"
     },
     "ab1cc360-b9de-48d9-9983-4dfe4a7d2a37": {
       "name": "Arcane Denial",
@@ -45,9 +61,17 @@
       "name": "Archmage Emeritus",
       "file": "glyphs/cards/8305d576-21d8-4ce7-8eda-a7cd9793aca5.svg"
     },
+    "4d18bcba-a346-445e-a182-6cc30b7e066d": {
+      "name": "Ashnod's Altar",
+      "file": "glyphs/cards/4d18bcba-a346-445e-a182-6cc30b7e066d.svg"
+    },
     "ac10d218-f9a6-4058-9cda-a15ca1b0b7b5": {
       "name": "Assassin's Trophy",
       "file": "glyphs/cards/ac10d218-f9a6-4058-9cda-a15ca1b0b7b5.svg"
+    },
+    "8d03d050-391c-4311-8c42-4ee632d40fdc": {
+      "name": "Aura Shards",
+      "file": "glyphs/cards/8d03d050-391c-4311-8c42-4ee632d40fdc.svg"
     },
     "0f5a3a09-2f07-4774-9e0f-e99d9a444166": {
       "name": "Aurelia, the Warleader",
@@ -85,6 +109,10 @@
       "name": "Baleful Strix",
       "file": "glyphs/cards/37688720-03de-4eca-a82d-a0afe8d58adc.svg"
     },
+    "c7f33cea-2ec8-4081-9208-a5b1d86721b3": {
+      "name": "Bastion of Remembrance",
+      "file": "glyphs/cards/c7f33cea-2ec8-4081-9208-a5b1d86721b3.svg"
+    },
     "5da7eea8-bb9e-47ce-a554-8a1ee058bd7a": {
       "name": "Beast Whisperer",
       "file": "glyphs/cards/5da7eea8-bb9e-47ce-a554-8a1ee058bd7a.svg"
@@ -96,6 +124,10 @@
     "bceecc64-96f1-4e7b-8904-0aef90377764": {
       "name": "Bedevil",
       "file": "glyphs/cards/bceecc64-96f1-4e7b-8904-0aef90377764.svg"
+    },
+    "e1afaef7-9fa3-4662-a95f-adfb0da9fd11": {
+      "name": "Bident of Thassa",
+      "file": "glyphs/cards/e1afaef7-9fa3-4662-a95f-adfb0da9fd11.svg"
     },
     "a5cbd257-c836-493e-bb1a-76242619dea2": {
       "name": "Big Score",
@@ -133,9 +165,29 @@
       "name": "Boros Signet",
       "file": "glyphs/cards/41c84665-1f99-40ab-aaca-1188649eb263.svg"
     },
+    "e0445c80-fa53-4c3e-881e-940e9fce7f57": {
+      "name": "Braids, Arisen Nightmare",
+      "file": "glyphs/cards/e0445c80-fa53-4c3e-881e-940e9fce7f57.svg"
+    },
     "36cd2364-d113-47d1-b2c4-b088d9eb88dd": {
       "name": "Brainstorm",
       "file": "glyphs/cards/36cd2364-d113-47d1-b2c4-b088d9eb88dd.svg"
+    },
+    "28fe909b-06e0-424c-9f75-c824a25f5865": {
+      "name": "Branching Evolution",
+      "file": "glyphs/cards/28fe909b-06e0-424c-9f75-c824a25f5865.svg"
+    },
+    "8203c621-a1a0-4865-8c9a-0d4064c86107": {
+      "name": "Buried Alive",
+      "file": "glyphs/cards/8203c621-a1a0-4865-8c9a-0d4064c86107.svg"
+    },
+    "5b5bf1fa-6502-4790-b66b-f0f8504ebc7c": {
+      "name": "Cabal Ritual",
+      "file": "glyphs/cards/5b5bf1fa-6502-4790-b66b-f0f8504ebc7c.svg"
+    },
+    "3ceb23f5-abb1-4569-a1e4-1eed9a9babcf": {
+      "name": "Call the Spirit Dragons",
+      "file": "glyphs/cards/3ceb23f5-abb1-4569-a1e4-1eed9a9babcf.svg"
     },
     "a2f8cde8-bf7b-4234-89f0-a95f9dc937e3": {
       "name": "Cauldron of Essence",
@@ -149,13 +201,25 @@
       "name": "Chromatic Lantern",
       "file": "glyphs/cards/539f5396-d99a-417d-a84c-dff7930b5900.svg"
     },
+    "ec3d4466-547c-4e02-b1b5-a156ec4637e9": {
+      "name": "Chrome Mox",
+      "file": "glyphs/cards/ec3d4466-547c-4e02-b1b5-a156ec4637e9.svg"
+    },
     "0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b": {
       "name": "Commander's Sphere",
       "file": "glyphs/cards/0b67c4e2-f88b-4e01-85a1-9d5f5b8db13b.svg"
     },
+    "4c9bcba6-87b5-4fb3-97ee-6fe5b739337d": {
+      "name": "Consider",
+      "file": "glyphs/cards/4c9bcba6-87b5-4fb3-97ee-6fe5b739337d.svg"
+    },
     "cc187110-1148-4090-bbb8-e205694a39f5": {
       "name": "Counterspell",
       "file": "glyphs/cards/cc187110-1148-4090-bbb8-e205694a39f5.svg"
+    },
+    "ee81f37b-2a81-46d7-8d2f-9091123846c4": {
+      "name": "Crackling Doom",
+      "file": "glyphs/cards/ee81f37b-2a81-46d7-8d2f-9091123846c4.svg"
     },
     "8c52bd39-0586-48ca-b263-17210cf9feb6": {
       "name": "Craterhoof Behemoth",
@@ -165,6 +229,10 @@
       "name": "Crop Rotation",
       "file": "glyphs/cards/28b46183-c62f-47b1-9fee-3ba148202cab.svg"
     },
+    "3ee78cfc-0e9e-4737-a7e2-b42f94228040": {
+      "name": "Cruel Celebrant",
+      "file": "glyphs/cards/3ee78cfc-0e9e-4737-a7e2-b42f94228040.svg"
+    },
     "15e5136e-ed15-49a8-b027-e09436673fb4": {
       "name": "Culling Ritual",
       "file": "glyphs/cards/15e5136e-ed15-49a8-b027-e09436673fb4.svg"
@@ -172,6 +240,10 @@
     "8b755881-a72d-4e21-a369-d2924eb4585a": {
       "name": "Cultivate",
       "file": "glyphs/cards/8b755881-a72d-4e21-a369-d2924eb4585a.svg"
+    },
+    "4d67e2a7-4aa7-44cc-853b-500d7aac046d": {
+      "name": "Cursed Mirror",
+      "file": "glyphs/cards/4d67e2a7-4aa7-44cc-853b-500d7aac046d.svg"
     },
     "d75b9c82-1b49-4c3e-a1b5-aeef57d6644b": {
       "name": "Cyclonic Rift",
@@ -181,9 +253,21 @@
       "name": "Damn",
       "file": "glyphs/cards/b01d61cc-9844-4191-86a0-f2db6d42d6e5.svg"
     },
+    "d57a8f0b-7989-4db5-8756-6f2690097252": {
+      "name": "Damnation",
+      "file": "glyphs/cards/d57a8f0b-7989-4db5-8756-6f2690097252.svg"
+    },
     "53f7c868-b03e-4fc2-8dcf-a75bbfa3272b": {
       "name": "Dark Ritual",
       "file": "glyphs/cards/53f7c868-b03e-4fc2-8dcf-a75bbfa3272b.svg"
+    },
+    "f1c2dbe2-fbe0-4058-bdf1-91d1b1832786": {
+      "name": "Dauthi Voidwalker",
+      "file": "glyphs/cards/f1c2dbe2-fbe0-4058-bdf1-91d1b1832786.svg"
+    },
+    "37c06f89-db36-4937-9404-2b07cd22e1a6": {
+      "name": "Dawn's Truce",
+      "file": "glyphs/cards/37c06f89-db36-4937-9404-2b07cd22e1a6.svg"
     },
     "457af74a-02b3-4659-846d-63e482667f34": {
       "name": "Deadly Dispute",
@@ -201,6 +285,10 @@
       "name": "Decimate",
       "file": "glyphs/cards/a4e5693f-12a0-451e-818d-d6efc7b4ed25.svg"
     },
+    "dc5dffc8-fac5-4956-bac4-1ad2cc16f6be": {
+      "name": "Deflecting Palm",
+      "file": "glyphs/cards/dc5dffc8-fac5-4956-bac4-1ad2cc16f6be.svg"
+    },
     "ae120613-97d6-4393-b39d-c3e6c076f5d6": {
       "name": "Deflecting Swat",
       "file": "glyphs/cards/ae120613-97d6-4393-b39d-c3e6c076f5d6.svg"
@@ -208,6 +296,10 @@
     "f9d3b046-0b95-4103-a630-4b3fb88bb60b": {
       "name": "Delighted Halfling",
       "file": "glyphs/cards/f9d3b046-0b95-4103-a630-4b3fb88bb60b.svg"
+    },
+    "c11e84a1-dbda-429b-8cd6-fd0deaefc689": {
+      "name": "Demand Answers",
+      "file": "glyphs/cards/c11e84a1-dbda-429b-8cd6-fd0deaefc689.svg"
     },
     "82004860-e589-4e38-8d61-8c0210e4ea39": {
       "name": "Demonic Tutor",
@@ -224,6 +316,14 @@
     "7d881c57-0bd9-4c57-aa4a-b10808b86143": {
       "name": "Dimir Signet",
       "file": "glyphs/cards/7d881c57-0bd9-4c57-aa4a-b10808b86143.svg"
+    },
+    "2699005b-a471-429f-a9d8-fbf2077ee2fd": {
+      "name": "Disciple of Freyalise // Garden of Freyalise",
+      "file": "glyphs/cards/2699005b-a471-429f-a9d8-fbf2077ee2fd.svg"
+    },
+    "133c99c0-3652-410f-8100-68015a47af9f": {
+      "name": "Dispatch",
+      "file": "glyphs/cards/133c99c0-3652-410f-8100-68015a47af9f.svg"
     },
     "01546b7d-a233-4176-8843-d732074dc5b6": {
       "name": "Doubling Season",
@@ -257,9 +357,29 @@
       "name": "Elvish Mystic",
       "file": "glyphs/cards/3f3b2c10-21f8-4e13-be83-4ef3fa36e123.svg"
     },
+    "3577c47e-76d3-4659-b922-31c4b74be3a0": {
+      "name": "Enduring Vitality",
+      "file": "glyphs/cards/3577c47e-76d3-4659-b922-31c4b74be3a0.svg"
+    },
     "c5229c17-b7be-4b05-b683-f2277edc4849": {
       "name": "Enlightened Tutor",
       "file": "glyphs/cards/c5229c17-b7be-4b05-b683-f2277edc4849.svg"
+    },
+    "736017e2-bc33-49e8-812d-1639443fdb51": {
+      "name": "Entish Restoration",
+      "file": "glyphs/cards/736017e2-bc33-49e8-812d-1639443fdb51.svg"
+    },
+    "299fc083-0834-4064-8344-f895aff68867": {
+      "name": "Entomb",
+      "file": "glyphs/cards/299fc083-0834-4064-8344-f895aff68867.svg"
+    },
+    "0fd57894-b917-41c8-a394-360d1d31b236": {
+      "name": "Ephemerate",
+      "file": "glyphs/cards/0fd57894-b917-41c8-a394-360d1d31b236.svg"
+    },
+    "92023a5d-a143-4950-a71b-d736e6b8e959": {
+      "name": "Esika, God of the Tree // The Prismatic Bridge",
+      "file": "glyphs/cards/92023a5d-a143-4950-a71b-d736e6b8e959.svg"
     },
     "5def9f38-0a0b-4e8d-9f9d-29dcb46520b4": {
       "name": "Esper Sentinel",
@@ -277,6 +397,14 @@
       "name": "Eternal Witness",
       "file": "glyphs/cards/30b24e8e-3b0e-4d8e-90f3-f66eb7c1858c.svg"
     },
+    "96b87445-6362-4a17-91b2-cbf203fd03fd": {
+      "name": "Etherium Sculptor",
+      "file": "glyphs/cards/96b87445-6362-4a17-91b2-cbf203fd03fd.svg"
+    },
+    "b45fdeab-00cc-4422-af9f-66f30a880a7c": {
+      "name": "Evolution Sage",
+      "file": "glyphs/cards/b45fdeab-00cc-4422-af9f-66f30a880a7c.svg"
+    },
     "0c2841bb-038c-4fbf-8360-bc0a1522b58d": {
       "name": "Exploration",
       "file": "glyphs/cards/0c2841bb-038c-4fbf-8360-bc0a1522b58d.svg"
@@ -284,6 +412,10 @@
     "b8f566ea-8283-4afa-9ac8-737e26419283": {
       "name": "Explore",
       "file": "glyphs/cards/b8f566ea-8283-4afa-9ac8-737e26419283.svg"
+    },
+    "c7aecca5-2f67-4245-ab2d-e723d8b23a67": {
+      "name": "Expressive Iteration",
+      "file": "glyphs/cards/c7aecca5-2f67-4245-ab2d-e723d8b23a67.svg"
     },
     "8164b1e8-3350-465e-8a17-75f57d326344": {
       "name": "Exsanguinate",
@@ -300,6 +432,10 @@
     "3d6fa57a-aa53-4b5c-b8af-a7612c823117": {
       "name": "Faithless Looting",
       "file": "glyphs/cards/3d6fa57a-aa53-4b5c-b8af-a7612c823117.svg"
+    },
+    "86aef5a2-e975-4f35-8fd1-b1de187319e6": {
+      "name": "Fanatic of Rhonas",
+      "file": "glyphs/cards/86aef5a2-e975-4f35-8fd1-b1de187319e6.svg"
     },
     "4eb813fd-2d5a-4b02-8193-662681ef4e7d": {
       "name": "Farewell",
@@ -345,6 +481,10 @@
       "name": "Force of Will",
       "file": "glyphs/cards/956381ba-6d37-4a8a-846c-bad79222dbee.svg"
     },
+    "2ef75cf3-30dc-4852-a6d1-1d6391fad022": {
+      "name": "Forgotten Ancient",
+      "file": "glyphs/cards/2ef75cf3-30dc-4852-a6d1-1d6391fad022.svg"
+    },
     "16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c": {
       "name": "Frantic Search",
       "file": "glyphs/cards/16e015b2-f8a3-4b1a-80be-58a8f5fb5e8c.svg"
@@ -365,13 +505,25 @@
       "name": "Generous Gift",
       "file": "glyphs/cards/fae37e28-e137-4177-b973-fa8b4dd8f409.svg"
     },
+    "b0b6be0c-41cf-4757-9f0e-87227b6ba6b3": {
+      "name": "Ghalta, Primal Hunger",
+      "file": "glyphs/cards/b0b6be0c-41cf-4757-9f0e-87227b6ba6b3.svg"
+    },
     "e828b189-0e8f-43b8-b909-4c23e742e028": {
       "name": "Ghostly Prison",
       "file": "glyphs/cards/e828b189-0e8f-43b8-b909-4c23e742e028.svg"
     },
+    "66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5": {
+      "name": "Gisela, Blade of Goldnight",
+      "file": "glyphs/cards/66f9f325-5e8e-4ebf-b5b3-c6410d80f2c5.svg"
+    },
     "c01aeaa5-1d3b-4493-9575-30175dcd780d": {
       "name": "Gleaming Splendor",
       "file": "glyphs/cards/c01aeaa5-1d3b-4493-9575-30175dcd780d.svg"
+    },
+    "2f092562-9e17-43cd-aeb8-d0567f99363e": {
+      "name": "Go for the Throat",
+      "file": "glyphs/cards/2f092562-9e17-43cd-aeb8-d0567f99363e.svg"
     },
     "e9319f13-1f2b-429c-9d61-e58a3cbec86a": {
       "name": "Goblin Anarchomancer",
@@ -380,6 +532,10 @@
     "81f06f84-1580-43c0-89d5-08d34541a519": {
       "name": "Goblin Electromancer",
       "file": "glyphs/cards/81f06f84-1580-43c0-89d5-08d34541a519.svg"
+    },
+    "716b3ea2-45b7-4a8f-af72-de7f4e510eff": {
+      "name": "Goldspan Dragon",
+      "file": "glyphs/cards/716b3ea2-45b7-4a8f-af72-de7f4e510eff.svg"
     },
     "1cf51f50-24e4-48d0-95b3-1dad3ffa4bf5": {
       "name": "Golgari Signet",
@@ -405,6 +561,10 @@
       "name": "Guardian Project",
       "file": "glyphs/cards/4f9e07ae-6341-4b46-9f77-f17ab659d266.svg"
     },
+    "c6bdaf76-6a03-4695-9c4b-f040e73435af": {
+      "name": "Guttersnipe",
+      "file": "glyphs/cards/c6bdaf76-6a03-4695-9c4b-f040e73435af.svg"
+    },
     "a1f3da21-af6d-450e-bf0b-985d158418e6": {
       "name": "Hardened Scales",
       "file": "glyphs/cards/a1f3da21-af6d-450e-bf0b-985d158418e6.svg"
@@ -417,6 +577,10 @@
       "name": "Harrow",
       "file": "glyphs/cards/705509e9-a034-4a5a-9c65-66f58748b8a2.svg"
     },
+    "c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2": {
+      "name": "Herald's Horn",
+      "file": "glyphs/cards/c02c5547-b9c9-4b2d-9d12-e87bfba8f2d2.svg"
+    },
     "24882fa2-3fe9-4c1b-aa3d-0e6488b9db27": {
       "name": "Heroic Intervention",
       "file": "glyphs/cards/24882fa2-3fe9-4c1b-aa3d-0e6488b9db27.svg"
@@ -428,6 +592,10 @@
     "d4a84e78-d9b9-4c67-8a4b-4329e65f0f15": {
       "name": "Hullbreaker Horror",
       "file": "glyphs/cards/d4a84e78-d9b9-4c67-8a4b-4329e65f0f15.svg"
+    },
+    "109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f": {
+      "name": "Icetill Explorer",
+      "file": "glyphs/cards/109cdefd-e8cc-4ac7-b6ba-2cfdef8d780f.svg"
     },
     "c8de43a3-ebd3-4000-b343-a6ffed11d34d": {
       "name": "Ignoble Hierarch",
@@ -449,21 +617,53 @@
       "name": "Inspiring Call",
       "file": "glyphs/cards/9b9a10ff-5a5d-4df8-88aa-18d84ff9117c.svg"
     },
+    "65114758-9a75-43a7-96e8-0aa68faa6b24": {
+      "name": "Isshin, Two Heavens as One",
+      "file": "glyphs/cards/65114758-9a75-43a7-96e8-0aa68faa6b24.svg"
+    },
     "2fda4fe7-8b0c-489c-a000-6d358e614e34": {
       "name": "Izzet Signet",
       "file": "glyphs/cards/2fda4fe7-8b0c-489c-a000-6d358e614e34.svg"
+    },
+    "f0587c55-06c1-4930-a62e-668f37464ce9": {
+      "name": "Jegantha, the Wellspring",
+      "file": "glyphs/cards/f0587c55-06c1-4930-a62e-668f37464ce9.svg"
     },
     "0fd114c4-092b-4e28-b0dc-ef529f3bc73e": {
       "name": "Jeska's Will",
       "file": "glyphs/cards/0fd114c4-092b-4e28-b0dc-ef529f3bc73e.svg"
     },
+    "c803b788-4213-4fab-b841-7e5bbf66088e": {
+      "name": "Jhoira, Weatherlight Captain",
+      "file": "glyphs/cards/c803b788-4213-4fab-b841-7e5bbf66088e.svg"
+    },
+    "f122624f-f30d-444e-a62a-939829241045": {
+      "name": "Kami of Whispered Hopes",
+      "file": "glyphs/cards/f122624f-f30d-444e-a62a-939829241045.svg"
+    },
+    "bc14356c-3a1a-47af-9a6e-2b449de0331f": {
+      "name": "Kardur, Doomscourge",
+      "file": "glyphs/cards/bc14356c-3a1a-47af-9a6e-2b449de0331f.svg"
+    },
+    "005ee549-1bf5-478f-bc3f-3e791bd7eecf": {
+      "name": "Kindred Discovery",
+      "file": "glyphs/cards/005ee549-1bf5-478f-bc3f-3e791bd7eecf.svg"
+    },
     "1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90": {
       "name": "Kodama's Reach",
       "file": "glyphs/cards/1593ea18-2f2f-4ab4-83fb-6ccc0bec8a90.svg"
     },
+    "9ae669dd-7e60-4649-b96e-35da28be641a": {
+      "name": "Korvold, Fae-Cursed King",
+      "file": "glyphs/cards/9ae669dd-7e60-4649-b96e-35da28be641a.svg"
+    },
     "3233af43-7826-4895-b67e-03c6102c2cd5": {
       "name": "Kutzil, Malamet Exemplar",
       "file": "glyphs/cards/3233af43-7826-4895-b67e-03c6102c2cd5.svg"
+    },
+    "d2d9ecea-7925-420e-98b9-2f87f41f387c": {
+      "name": "Land Tax",
+      "file": "glyphs/cards/d2d9ecea-7925-420e-98b9-2f87f41f387c.svg"
     },
     "6b2e6a51-b9e6-4848-b7d7-98f02f2b897f": {
       "name": "Leyline of the Guildpact",
@@ -513,6 +713,10 @@
       "name": "Mana Geyser",
       "file": "glyphs/cards/a8dba58b-2956-492e-ae30-49db2ae68e53.svg"
     },
+    "736892cb-a34b-4bb9-b56c-e26e3db207a2": {
+      "name": "Mana Vault",
+      "file": "glyphs/cards/736892cb-a34b-4bb9-b56c-e26e3db207a2.svg"
+    },
     "4709f11c-aef8-45ac-b2bf-e640c568dfac": {
       "name": "Mayhem Devil",
       "file": "glyphs/cards/4709f11c-aef8-45ac-b2bf-e640c568dfac.svg"
@@ -536,6 +740,10 @@
     "68639a3d-2192-4921-8298-c76bb0cd6b02": {
       "name": "Moldervine Reclamation",
       "file": "glyphs/cards/68639a3d-2192-4921-8298-c76bb0cd6b02.svg"
+    },
+    "fe83087d-c6c1-40be-9295-baaa1c6b2db1": {
+      "name": "Mondrak, Glory Dominus",
+      "file": "glyphs/cards/fe83087d-c6c1-40be-9295-baaa1c6b2db1.svg"
     },
     "322f44f0-e6da-4ee0-b474-e7d5e9a461c5": {
       "name": "Morbid Opportunist",
@@ -561,6 +769,10 @@
       "name": "Mystical Tutor",
       "file": "glyphs/cards/fb81f95c-70f8-4eb7-8d15-15d0ae23ec03.svg"
     },
+    "6d4e558e-9109-4918-a082-fdcbaffd516b": {
+      "name": "Nature's Claim",
+      "file": "glyphs/cards/6d4e558e-9109-4918-a082-fdcbaffd516b.svg"
+    },
     "78826359-fe63-44ad-adc4-a17ffcd710e4": {
       "name": "Nature's Lore",
       "file": "glyphs/cards/78826359-fe63-44ad-adc4-a17ffcd710e4.svg"
@@ -577,9 +789,21 @@
       "name": "Nissa, Leyline Tamer",
       "file": "glyphs/cards/6067b8d0-5b00-402c-967d-e35a1304fafc.svg"
     },
+    "33666a98-812f-4892-9f8d-33e0cbecc340": {
+      "name": "Niv-Mizzet, Parun",
+      "file": "glyphs/cards/33666a98-812f-4892-9f8d-33e0cbecc340.svg"
+    },
     "98aa9424-5912-4bd6-9300-b3972a31d8af": {
       "name": "Noble Hierarch",
       "file": "glyphs/cards/98aa9424-5912-4bd6-9300-b3972a31d8af.svg"
+    },
+    "b99ada26-9a61-4175-9fb8-15a106960220": {
+      "name": "Ohran Frostfang",
+      "file": "glyphs/cards/b99ada26-9a61-4175-9fb8-15a106960220.svg"
+    },
+    "1816eede-c5bd-49df-958f-a3af64cb2932": {
+      "name": "Omnath, Locus of Rage",
+      "file": "glyphs/cards/1816eede-c5bd-49df-958f-a3af64cb2932.svg"
     },
     "713332c1-5bd8-400f-bfff-c1ca0697a043": {
       "name": "Opt",
@@ -592,6 +816,14 @@
     "de3dcb5d-775a-479f-99f5-d1883ed9b1b5": {
       "name": "Orzhov Signet",
       "file": "glyphs/cards/de3dcb5d-775a-479f-99f5-d1883ed9b1b5.svg"
+    },
+    "f3e213a4-ba5a-468a-93b3-c0a34e1bd725": {
+      "name": "Pact of Negation",
+      "file": "glyphs/cards/f3e213a4-ba5a-468a-93b3-c0a34e1bd725.svg"
+    },
+    "84dc94b2-95fb-4d53-aaa2-191cb645639f": {
+      "name": "Parallel Lives",
+      "file": "glyphs/cards/84dc94b2-95fb-4d53-aaa2-191cb645639f.svg"
     },
     "d683d985-9888-4d21-8b5f-69e69ce4a03b": {
       "name": "Path to Exile",
@@ -621,6 +853,10 @@
       "name": "Preordain",
       "file": "glyphs/cards/ac641490-ca14-48d7-8cc4-b69ce984befa.svg"
     },
+    "fa3e28b1-131c-4223-81e0-18dfbab22c26": {
+      "name": "Prismari Command",
+      "file": "glyphs/cards/fa3e28b1-131c-4223-81e0-18dfbab22c26.svg"
+    },
     "04152e7a-969c-4858-841b-0a569a9fc1bf": {
       "name": "Professional Face-Breaker",
       "file": "glyphs/cards/04152e7a-969c-4858-841b-0a569a9fc1bf.svg"
@@ -645,9 +881,21 @@
       "name": "Rakdos Signet",
       "file": "glyphs/cards/3adb7681-977f-4a32-9ec8-51481b958268.svg"
     },
+    "3ed41d2d-211b-4013-8562-8c64d54cc43a": {
+      "name": "Ramos, Dragon Engine",
+      "file": "glyphs/cards/3ed41d2d-211b-4013-8562-8c64d54cc43a.svg"
+    },
+    "2d3e6549-6cc6-434f-a189-ba3b55e64c34": {
+      "name": "Rampaging Baloths",
+      "file": "glyphs/cards/2d3e6549-6cc6-434f-a189-ba3b55e64c34.svg"
+    },
     "8539f295-5d58-4436-a73a-b9277c4c7795": {
       "name": "Rampant Growth",
       "file": "glyphs/cards/8539f295-5d58-4436-a73a-b9277c4c7795.svg"
+    },
+    "4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5": {
+      "name": "Ramunap Excavator",
+      "file": "glyphs/cards/4f819ba4-52ef-4fdd-8e4c-5ae3b2f44db5.svg"
     },
     "06692cd9-ac2f-4a32-8fd1-043ba3c0fe71": {
       "name": "Rapid Hybridization",
@@ -665,6 +913,10 @@
       "name": "Reclamation Sage",
       "file": "glyphs/cards/032ec6e2-6cc3-4a97-9cc7-3233f5e11904.svg"
     },
+    "bb329a5c-b9f9-4973-a53f-090024146325": {
+      "name": "Red Elemental Blast",
+      "file": "glyphs/cards/bb329a5c-b9f9-4973-a53f-090024146325.svg"
+    },
     "c62b5c22-e058-436f-9575-a01cb2112829": {
       "name": "Redirect Lightning",
       "file": "glyphs/cards/c62b5c22-e058-436f-9575-a01cb2112829.svg"
@@ -672,6 +924,10 @@
     "b3a81bb1-cbd5-41a0-8dd4-faea06593f84": {
       "name": "Relic of Sauron",
       "file": "glyphs/cards/b3a81bb1-cbd5-41a0-8dd4-faea06593f84.svg"
+    },
+    "9263287d-f782-4318-9ab8-e2e5f8107f5e": {
+      "name": "Resonating Lute",
+      "file": "glyphs/cards/9263287d-f782-4318-9ab8-e2e5f8107f5e.svg"
     },
     "2b76f9e9-cd28-4eaf-8674-215c34263f96": {
       "name": "Return of the Wildspeaker",
@@ -693,6 +949,10 @@
       "name": "Rishkar's Expertise",
       "file": "glyphs/cards/97407cd0-2bd2-4074-94d3-4ec3d243fa78.svg"
     },
+    "3640c29b-1534-4952-b297-619ade948431": {
+      "name": "Roaming Throne",
+      "file": "glyphs/cards/3640c29b-1534-4952-b297-619ade948431.svg"
+    },
     "a6f38908-aa4f-4f99-a28e-85d11dab52e4": {
       "name": "Ruinous Ultimatum",
       "file": "glyphs/cards/a6f38908-aa4f-4f99-a28e-85d11dab52e4.svg"
@@ -713,13 +973,37 @@
       "name": "Seething Song",
       "file": "glyphs/cards/64bf8929-f5f2-4d50-8667-13b1d007bcfc.svg"
     },
+    "1436dd81-496e-42a5-b210-fb5b9cdf073f": {
+      "name": "Selesnya Signet",
+      "file": "glyphs/cards/1436dd81-496e-42a5-b210-fb5b9cdf073f.svg"
+    },
+    "1d725121-e50c-42f0-9128-56802f07c89e": {
+      "name": "Selvala, Heart of the Wilds",
+      "file": "glyphs/cards/1d725121-e50c-42f0-9128-56802f07c89e.svg"
+    },
     "1b9f9f5b-8712-4f00-90cb-1b7b9970eccc": {
       "name": "Sevinne's Reclamation",
       "file": "glyphs/cards/1b9f9f5b-8712-4f00-90cb-1b7b9970eccc.svg"
     },
+    "a0c47ab6-dfb4-46ee-a3f7-9e1521b4bb4b": {
+      "name": "Shalai, Voice of Plenty",
+      "file": "glyphs/cards/a0c47ab6-dfb4-46ee-a3f7-9e1521b4bb4b.svg"
+    },
+    "d1d171de-1c6d-4fb9-817a-9c689c709f3d": {
+      "name": "Shamanic Revelation",
+      "file": "glyphs/cards/d1d171de-1c6d-4fb9-817a-9c689c709f3d.svg"
+    },
     "c6207f6a-a624-4754-88f5-dbe700c841ff": {
       "name": "Sign in Blood",
       "file": "glyphs/cards/c6207f6a-a624-4754-88f5-dbe700c841ff.svg"
+    },
+    "8aed54cb-d1bb-45ad-adbe-38e55d84ff31": {
+      "name": "Silence",
+      "file": "glyphs/cards/8aed54cb-d1bb-45ad-adbe-38e55d84ff31.svg"
+    },
+    "44e0ffa3-8915-4c1f-8f1a-4aeea1365f07": {
+      "name": "Simian Spirit Guide",
+      "file": "glyphs/cards/44e0ffa3-8915-4c1f-8f1a-4aeea1365f07.svg"
     },
     "44503105-3e13-408d-a44f-37d503c61d72": {
       "name": "Simic Signet",
@@ -741,6 +1025,10 @@
       "name": "Smothering Tithe",
       "file": "glyphs/cards/153376c9-dffd-458c-8ce3-a4c8269bc4e9.svg"
     },
+    "1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8": {
+      "name": "Snakeskin Veil",
+      "file": "glyphs/cards/1e6a24be-8281-41c1-a5ba-b68f0ef1d7b8.svg"
+    },
     "ac914d98-221e-426c-8a50-342896b15f9e": {
       "name": "Snap",
       "file": "glyphs/cards/ac914d98-221e-426c-8a50-342896b15f9e.svg"
@@ -753,13 +1041,37 @@
       "name": "Solemn Simulacrum",
       "file": "glyphs/cards/00c0543c-2a1f-4425-8283-4062d74a1637.svg"
     },
+    "f3fad295-1af2-4ecc-8546-b121ad6be27b": {
+      "name": "Soul Warden",
+      "file": "glyphs/cards/f3fad295-1af2-4ecc-8546-b121ad6be27b.svg"
+    },
+    "8dcb35e5-ae44-455f-86e3-4a77d496ff34": {
+      "name": "Spark Double",
+      "file": "glyphs/cards/8dcb35e5-ae44-455f-86e3-4a77d496ff34.svg"
+    },
+    "7e00b0cd-d212-4604-ba07-da21f4fe00b0": {
+      "name": "Sram, Senior Edificer",
+      "file": "glyphs/cards/7e00b0cd-d212-4604-ba07-da21f4fe00b0.svg"
+    },
+    "2c275a85-5a15-46cd-a6e7-add63f9b853d": {
+      "name": "Sterling Grove",
+      "file": "glyphs/cards/2c275a85-5a15-46cd-a6e7-add63f9b853d.svg"
+    },
     "a145ff8c-5812-4bcb-bd16-9839dc25121d": {
       "name": "Storm-Kiln Artist",
       "file": "glyphs/cards/a145ff8c-5812-4bcb-bd16-9839dc25121d.svg"
     },
+    "b2252471-01ca-4d58-aa99-4ab0aa5eae12": {
+      "name": "Stormcatch Mentor",
+      "file": "glyphs/cards/b2252471-01ca-4d58-aa99-4ab0aa5eae12.svg"
+    },
     "9a107e48-3d50-4941-95b1-10f2b29a4245": {
       "name": "Stroke of Midnight",
       "file": "glyphs/cards/9a107e48-3d50-4941-95b1-10f2b29a4245.svg"
+    },
+    "08dd69ca-af91-41fc-952e-b2e1f286e2b2": {
+      "name": "Stump Stomp // Stump Stomp",
+      "file": "glyphs/cards/08dd69ca-af91-41fc-952e-b2e1f286e2b2.svg"
     },
     "b2e950fb-cb7e-40a0-a311-5bbdd0477b29": {
       "name": "Sun Titan",
@@ -788,6 +1100,10 @@
     "14c3ff84-1e82-4606-a433-869fc52cc382": {
       "name": "Syr Konrad, the Grim",
       "file": "glyphs/cards/14c3ff84-1e82-4606-a433-869fc52cc382.svg"
+    },
+    "0fc64fd6-f057-4056-9dca-47accb7ff036": {
+      "name": "Sythis, Harvest's Hand",
+      "file": "glyphs/cards/0fc64fd6-f057-4056-9dca-47accb7ff036.svg"
     },
     "6c326439-5620-4ec6-a56a-fe9c3d5d2a46": {
       "name": "Talisman of Conviction",
@@ -829,6 +1145,10 @@
       "name": "Talisman of Unity",
       "file": "glyphs/cards/e5fcc5d7-6a60-4a5b-9d02-6c30041a95b9.svg"
     },
+    "bb2b324c-970a-4920-884e-c92ba49669f0": {
+      "name": "Tamiyo's Safekeeping",
+      "file": "glyphs/cards/bb2b324c-970a-4920-884e-c92ba49669f0.svg"
+    },
     "0715e860-3b3b-4331-9718-207973e94fee": {
       "name": "Tatyova, Benthic Druid",
       "file": "glyphs/cards/0715e860-3b3b-4331-9718-207973e94fee.svg"
@@ -836,6 +1156,10 @@
     "610af0f7-b5e3-43fb-9d02-7c59bd99034c": {
       "name": "Tear Asunder",
       "file": "glyphs/cards/610af0f7-b5e3-43fb-9d02-7c59bd99034c.svg"
+    },
+    "ae7604bb-4818-45a3-960c-cf3d83f15964": {
+      "name": "Teferi, Time Raveler",
+      "file": "glyphs/cards/ae7604bb-4818-45a3-960c-cf3d83f15964.svg"
     },
     "0d4ecdb1-ec90-497f-a7a4-1c68092b8757": {
       "name": "Teferi's Protection",
@@ -852,6 +1176,10 @@
     "6257c2fd-005f-41e3-8a72-af76df1eb134": {
       "name": "Terminate",
       "file": "glyphs/cards/6257c2fd-005f-41e3-8a72-af76df1eb134.svg"
+    },
+    "1de1b591-a73f-4974-b507-8c63e07a0868": {
+      "name": "Thassa's Oracle",
+      "file": "glyphs/cards/1de1b591-a73f-4974-b507-8c63e07a0868.svg"
     },
     "a5e54d2b-aad8-4ddd-af4b-13668913762b": {
       "name": "The Gitrog Monster",
@@ -877,6 +1205,10 @@
       "name": "Thrill of Possibility",
       "file": "glyphs/cards/1cb0610b-a731-42c2-b93f-0a29f63cebf4.svg"
     },
+    "f00e4df1-13fb-4514-8abb-92954068689a": {
+      "name": "Tiamat",
+      "file": "glyphs/cards/f00e4df1-13fb-4514-8abb-92954068689a.svg"
+    },
     "fec77e0a-433e-4d32-9260-e26a37f6ad23": {
       "name": "Timeless Lotus",
       "file": "glyphs/cards/fec77e0a-433e-4d32-9260-e26a37f6ad23.svg"
@@ -885,13 +1217,25 @@
       "name": "Tireless Provisioner",
       "file": "glyphs/cards/ab8d5f5c-1976-4f77-8ed2-8d28ee666741.svg"
     },
+    "a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f": {
+      "name": "Toski, Bearer of Secrets",
+      "file": "glyphs/cards/a8e707ec-ce77-4bc5-8c76-5ea3e81e8c7f.svg"
+    },
     "afaef788-34d1-460b-b884-9d7ae6ddeb18": {
       "name": "Toxic Deluge",
       "file": "glyphs/cards/afaef788-34d1-460b-b884-9d7ae6ddeb18.svg"
     },
+    "27e0948b-9916-473b-8d8c-a51bdfbc7457": {
+      "name": "Underworld Breach",
+      "file": "glyphs/cards/27e0948b-9916-473b-8d8c-a51bdfbc7457.svg"
+    },
     "498c10c9-253d-4b15-b48c-1509381b17e8": {
       "name": "Unexpected Windfall",
       "file": "glyphs/cards/498c10c9-253d-4b15-b48c-1509381b17e8.svg"
+    },
+    "7324abaa-48da-439d-9339-b0ea5eea612e": {
+      "name": "Unnatural Growth",
+      "file": "glyphs/cards/7324abaa-48da-439d-9339-b0ea5eea612e.svg"
     },
     "2c49d24a-98a4-43c2-bb59-1ef13d4214c2": {
       "name": "Untimely Malfunction",
@@ -921,21 +1265,61 @@
       "name": "Village Rites",
       "file": "glyphs/cards/365548fb-5acc-4a8a-b20b-26d28b7d029f.svg"
     },
+    "f2fae95d-074b-4c0c-99cd-f9385a424c05": {
+      "name": "Villainous Wealth",
+      "file": "glyphs/cards/f2fae95d-074b-4c0c-99cd-f9385a424c05.svg"
+    },
+    "63c1ac21-e3d8-40c2-8c09-3f31c52992ef": {
+      "name": "Vindicate",
+      "file": "glyphs/cards/63c1ac21-e3d8-40c2-8c09-3f31c52992ef.svg"
+    },
     "f82a4e85-526d-4456-b700-7760043a31be": {
       "name": "Viscera Seer",
       "file": "glyphs/cards/f82a4e85-526d-4456-b700-7760043a31be.svg"
+    },
+    "b12cbda1-ac09-49eb-96b3-a4df27bc37ea": {
+      "name": "Voice of Victory",
+      "file": "glyphs/cards/b12cbda1-ac09-49eb-96b3-a4df27bc37ea.svg"
     },
     "713f16db-95ec-479e-a48c-7a69f7668d7f": {
       "name": "Void Rend",
       "file": "glyphs/cards/713f16db-95ec-479e-a48c-7a69f7668d7f.svg"
     },
+    "a751c07b-fc21-4854-96e7-f71abf4e86c9": {
+      "name": "Warleader's Call",
+      "file": "glyphs/cards/a751c07b-fc21-4854-96e7-f71abf4e86c9.svg"
+    },
+    "ace86e56-efde-4eb7-8815-71456a4c3abe": {
+      "name": "Warren Soultrader",
+      "file": "glyphs/cards/ace86e56-efde-4eb7-8815-71456a4c3abe.svg"
+    },
+    "31f15274-301b-47c5-ba19-0ced04520878": {
+      "name": "Wayfarer's Bauble",
+      "file": "glyphs/cards/31f15274-301b-47c5-ba19-0ced04520878.svg"
+    },
+    "9842734c-1eac-4509-a731-4c22017ae586": {
+      "name": "Wear // Tear",
+      "file": "glyphs/cards/9842734c-1eac-4509-a731-4c22017ae586.svg"
+    },
+    "605c1ee0-5e8a-4e0a-a99b-42a38873f822": {
+      "name": "Welcoming Vampire",
+      "file": "glyphs/cards/605c1ee0-5e8a-4e0a-a99b-42a38873f822.svg"
+    },
     "6467cbb7-1e4e-482d-a20f-6cb9fc0f1ad1": {
       "name": "Whirlwind of Thought",
       "file": "glyphs/cards/6467cbb7-1e4e-482d-a20f-6cb9fc0f1ad1.svg"
     },
+    "4507df69-6bf7-43d6-a609-c032b61835d5": {
+      "name": "Wight of the Reliquary",
+      "file": "glyphs/cards/4507df69-6bf7-43d6-a609-c032b61835d5.svg"
+    },
     "706ae742-1807-44b7-a4fa-f2e26f61519a": {
       "name": "Wild Growth",
       "file": "glyphs/cards/706ae742-1807-44b7-a4fa-f2e26f61519a.svg"
+    },
+    "64df560a-905f-45d1-bc70-14d99e3112d3": {
+      "name": "Windcrag Siege",
+      "file": "glyphs/cards/64df560a-905f-45d1-bc70-14d99e3112d3.svg"
     },
     "08becc07-28bc-4a2f-a6b0-28a2998d2f50": {
       "name": "Windfall",

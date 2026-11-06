@@ -27,9 +27,10 @@ function fit(layers) {
   for (const l of ls) { if (l.p) see(pts(l.p)); (l.ps || []).forEach(see); (l.l || []).forEach(see); }
   x0 -= 2; y0 -= 2; x1 += 2; y1 += 2;
   if (x0 >= 6 && y0 >= 6 && x1 <= 94 && y1 <= 94) return ls;
-  const s = Math.min(1, 88 / (x1 - x0), 88 / (y1 - y0));
-  const cx = (x0 + x1) / 2, cy = (y0 + y1) / 2;
-  return X(ls, { s, cx, cy, dx: 50 - cx, dy: 50 - cy });
+  // scale about x = 50 so the ink/accent split stays put; recentre vertically
+  const cy = (y0 + y1) / 2;
+  const s = Math.min(1, 44 / Math.max(50 - x0, x1 - 50), 88 / (y1 - y0));
+  return X(ls, { s, cx: 50, cy, dy: 50 - cy });
 }
 const seen = new Map();
 for (const src of sources) {

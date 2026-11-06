@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M42.3 43.8 50.6 45.3 50.6 90.8 34.5 87.9 32.6 85.2 39.5 45.7Z"/>
+<path class="accent" d="M50 45.2 65.5 47.9 67.4 50.6 60.5 90.1 57.7 92 50 90.7Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M42.3 43.8 65.5 47.9 67.4 50.6 60.5 90.1 57.7 92 34.5 87.9 32.6 85.2 39.5 45.7Z"/>
+<path class="accent" d="M42.6 48.6 51.4 50.1 51 52.6 42.1 51ZM51 86.1 36.4 83.6 36.8 81.1 51.4 83.7ZM36.4 83.6 42.6 48.6 45 49 38.9 84Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M50 51.2 62.2 53.3 56.4 85.8 50 84.7"/>
+<path fill="#000" d="M40.2 26.6 50.6 26.6 50.6 42.4 39.2 42.4Z"/>
+<path class="accent" d="M50 26.6 59.8 26.6 60.8 42.4 50 42.4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M40.2 26.6 59.8 26.6 60.8 42.4 39.2 42.4Z"/>
+<path class="accent" d="M50.5 43.6 39.4 43.6 39.4 41.1 50.5 41.1Z"/>
+<path fill="#000" d="M35.3 10.9 42.1 8 48 8.9 50.6 8.5 50.6 28.6 37.2 28.6 34.3 20.7Z"/>
+<path class="accent" d="M50 8.6 53.9 8 60.8 9.9 65.7 13.9 66.7 22.7 62.8 28.6 50 28.6Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M35.3 10.9 42.1 8 48 8.9 53.9 8 60.8 9.9 65.7 13.9 66.7 22.7 62.8 28.6 37.2 28.6 34.3 20.7Z"/>
+<path class="accent" d="M49.8 29.9 38.8 29.9 38.8 27.4 49.8 27.4ZM43.4 7.7 43.4 22 40.9 22 40.9 7.7ZM49.3 7.7 49.3 22 46.8 22 46.8 7.7Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M53.9 8.9 53.9 20.7M59.8 10.9 59.8 20.7"/>
+<path fill="#000" d="M34.3 19.8 45.1 19.8 48 23.7 43.1 26.6 35.3 25.7Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M34.3 19.8 45.1 19.8 48 23.7 43.1 26.6 35.3 25.7Z"/>
+<path class="accent" d="M34.4 18.5 46.3 18.5 46.3 21 34.4 21ZM45.3 18 49 23 47 24.5 43.3 19.5ZM49.7 24.1 42.7 28.4 41.4 26.2 48.5 22ZM44.2 28 39.1 27.4 39.4 24.9 44.5 25.6Z"/>
+</svg>
