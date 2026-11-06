@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M50 21.3 50.6 20.1 50.6 21.4Z"/>
+<path class="accent" d="M50 21.3 55.7 9.8 69.1 7.9 80.6 11.7 71 15.6 63.4 23.2Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 21.3 55.7 9.8 69.1 7.9 80.6 11.7 71 15.6 63.4 23.2Z"/>
+<path fill="#000" d="M50 19.4 50.6 19.5 50.6 91.9 50 92.1 30.9 86.3 25.1 71 23.2 46.2 27 30.9 36.6 21.3Z"/>
+<path class="accent" d="M50 19.4 63.4 21.3 73 30.9 76.8 46.2 74.9 71 69.1 86.3 50 92.1 50 19.4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 19.4 63.4 21.3 73 30.9 76.8 46.2 74.9 71 69.1 86.3 50 92.1 30.9 86.3 25.1 71 23.2 46.2 27 30.9 36.6 21.3Z"/>
+<path fill="#000" d="M50 42.3 73 40.4 73 48.1 50 50Z"/>
+<path class="accent" d="M51.5 56.2 51.5 87.8 48.5 87.8 48.5 56.2Z"/>
+<path fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" d="M50 57.7 50 86.3"/>
+<path class="accent" d="M40 60 40 80.2 37 80.2 37 60Z"/>
+<path fill="none" stroke="#000" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" d="M61.5 61.5 61.5 78.7"/>
+<path class="accent" d="M78.7 69.1 82.7 69.7 86.2 73.1 87.3 78.3 86.2 82.3 83.9 84.1 83.3 88.1 81 89.8 78.7 89.8 76.4 89.8 74.1 88.1 73.5 84.1 71.2 82.3 70.1 78.3 71.2 73.1 74.7 69.7Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M78.7 69.1 82.7 69.7 86.2 73.1 87.3 78.3 86.2 82.3 83.9 84.1 83.3 88.1 81 89.8 78.7 89.8 76.4 89.8 74.1 88.1 73.5 84.1 71.2 82.3 70.1 78.3 71.2 73.1 74.7 69.7Z"/>
+<path fill="#000" d="M82.1 76.9 83.7 77.6 84.1 79.3 83 80.7 81.3 80.7 80.2 79.3 80.6 77.6ZM76.8 77.6 77.2 79.3 76.1 80.7 74.4 80.7 73.3 79.3 73.7 77.6 75.3 76.9ZM78.7 81.8 79.8 84.6 77.5 84.6Z"/>
+<path fill="none" stroke="#000" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" d="M75.8 86.9 81.6 86.9M77 85.2 77 88.6M78.7 85.2 78.7 89.2M80.4 85.2 80.4 88.6"/>
+</svg>

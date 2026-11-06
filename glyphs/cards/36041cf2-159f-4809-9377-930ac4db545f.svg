@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M44 78 50.6 73.3 50.6 83.7 46 86Z"/>
+<path class="accent" d="M50 73.7 58 68 68 52 72 34 80 20 82 40 76 62 62 78 50 84Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M44 78 58 68 68 52 72 34 80 20 82 40 76 62 62 78 46 86Z"/>
+<path fill="#000" d="M50.6 84.3 38 78 24 62 18 40 20 20 28 34 32 52 42 68 50.6 74.1Z"/>
+<path class="accent" d="M54 86 50 84 50 73.7 56 78Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M54 86 38 78 24 62 18 40 20 20 28 34 32 52 42 68 56 78Z"/>
+<path fill="#000" d="M50 19 50.6 19.8 50.6 52 46.1 52 46.1 24.4Z"/>
+<path class="accent" d="M50 19 53.9 24.4 53.9 52 50 52 50 19Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 19 53.9 24.4 53.9 52 46.1 52 46.1 24.4Z"/>
+<path fill="#000" d="M39.2 51.4 50.6 51.4 50.6 56.8 39.2 56.8Z"/>
+<path class="accent" d="M50 51.4 60.8 51.4 60.8 56.8 50 56.8Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M39.2 51.4 60.8 51.4 60.8 56.8 39.2 56.8Z"/>
+<path class="accent" d="M45.2 50.2 50.5 50.2 50.5 52.7 45.2 52.7Z"/>
+<path fill="#000" d="M47.3 56.8 50.6 56.8 50.6 65.8 47.3 65.8Z"/>
+<path class="accent" d="M50 56.8 52.7 56.8 52.7 65.8 50 65.8Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M47.3 56.8 52.7 56.8 52.7 65.8 47.3 65.8Z"/>
+<path class="accent" d="M46.1 55.6 49.9 55.6 49.9 58.1 46.1 58.1Z"/>
+<path fill="#000" d="M50.6 72.2 48.1 72.2 46.1 68.8 48.1 65.4 50.6 65.4Z"/>
+<path class="accent" d="M52 65.4 53.9 68.8 52 72.2 50 72.2 50 65.4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M52 65.4 53.9 68.8 52 72.2 48.1 72.2 46.1 68.8 48.1 65.4Z"/>
+<path class="accent" d="M50.6 73.4 46.8 73.4 46.8 70.9 50.6 70.9ZM47.6 73.9 44.4 68.3 46.6 67.1 49.8 72.6ZM46.8 64.2 50.6 64.2 50.6 66.7 46.8 66.7Z"/>
+</svg>
