@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M46 58 38 64 26 72 22 62 10 62 12 52 4 46 8 36 6 24 18 22 34 28 46 44Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M46 58 38 64 26 72 22 62 10 62 12 52 4 46 8 36 6 24 18 22 34 28 46 44Z"/>
+<path class="accent" d="M54 44 66 28 82 22 94 24 92 36 96 46 88 52 90 62 78 62 74 72 62 64 54 58Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M54 44 66 28 82 22 94 24 92 36 96 46 88 52 90 62 78 62 74 72 62 64 54 58Z"/>
+<path fill="#000" d="M50 7.3 50.6 8.1 50.6 59.5 43.8 59.5 43.8 15.8Z"/>
+<path class="accent" d="M50 7.3 56.2 15.8 56.2 59.5 50 59.5 50 7.3Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M50 7.3 56.2 15.8 56.2 59.5 43.8 59.5 43.8 15.8Z"/>
+<path class="accent" d="M42.6 60.8 42.6 36.4 45.1 36.4 45.1 60.8Z"/>
+<path fill="#000" d="M32.9 58.6 50.6 58.6 50.6 67.1 32.9 67.1Z"/>
+<path class="accent" d="M50 58.6 67.1 58.6 67.1 67.1 50 67.1Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M32.9 58.6 67.1 58.6 67.1 67.1 32.9 67.1Z"/>
+<path class="accent" d="M31.7 57.3 50.5 57.3 50.5 59.8 31.7 59.8ZM31.7 68.4 31.7 57.3 34.2 57.3 34.2 68.4Z"/>
+<path fill="#000" d="M45.7 67.1 50.6 67.1 50.6 81.4 45.7 81.4Z"/>
+<path class="accent" d="M50 67.1 54.3 67.1 54.3 81.4 50 81.4Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M45.7 67.1 54.3 67.1 54.3 81.4 45.7 81.4Z"/>
+<path class="accent" d="M44.5 65.9 49.8 65.9 49.8 68.4 44.5 68.4Z"/>
+<path fill="#000" d="M50.6 91.4 46.9 91.4 43.8 86.1 46.9 80.8 50.6 80.8Z"/>
+<path class="accent" d="M53.1 80.8 56.2 86.1 53.1 91.4 50 91.4 50 80.8Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M53.1 80.8 56.2 86.1 53.1 91.4 46.9 91.4 43.8 86.1 46.9 80.8Z"/>
+<path class="accent" d="M45.7 79.5 50.6 79.5 50.6 82 45.7 82Z"/>
+</svg>

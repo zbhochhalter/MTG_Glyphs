@@ -3,22 +3,7 @@
 import { X, S, M, D, I, K, L, A, S2, limb, eyes, eye, circle, ngon, star, xf, rect, ringS, arc } from './_parts.mjs';
 import { flame, wave, peak, gear, sword, shield, wings } from './_motifs.mjs';
 
-// Colour marks for two-colour mana rocks. Deliberately not the mana symbols:
-// white = feather, blue = wave, black = crescent, red = bolt, green = leaf.
-const MARK = {
-  w: o => S(xf('50,30 58,40 58,58 50,70 42,58 42,40', o)),
-  u: o => S(xf('34,58 40,46 50,44 56,52 64,44 68,58 60,66 40,66', o)),
-  b: o => S(xf('56,30 44,36 38,50 44,64 56,70 50,58 50,42', o)),
-  r: o => S(xf('54,28 40,52 50,52 44,72 62,46 52,46 58,28', o)),
-  g: o => S(xf('50,30 60,40 62,54 50,70 38,54 40,40', o), { d: [xf('50,38 50,66', o)] }),
-};
-const pair = (a, b, y = 0, s = 0.6) => [MARK[a]({ s, dx: -12, dy: y }), MARK[b]({ s, dx: 12, dy: y })];
-// a talisman: a pendant on a short chain
-const talisman = (a, b) => X([L('50,6 50,18', { w: 3 }), ringS(50, 10, 3, 7, 8), S('50,18 74,30 84,54 72,80 50,92 28,80 16,54 26,30'), I('50,28 68,38 74,56 64,76 50,82 36,76 26,56 32,38'), ...pair(a, b, 6, 0.55)], { s: 0.9, dy: 3 });
-// a signet: a seal ring with a broad face
-const signet = (a, b) => [ringS(50, 64, 18, 28, 14), S('20,18 80,18 86,30 80,48 20,48 14,30'), I('26,24 74,24 78,32 74,42 26,42 22,32'), ...pair(a, b, -17, 0.4)];
-const hand = o => S(xf('30,94 30,62 22,48 27,44 35,54 35,24 42,22 44,50 46,18 53,18 54,50 57,22 64,22 64,52 67,30 74,32 72,60 68,76 66,94', o));
-const sprout = o => [S(xf(limb('50,94 50,52', 6, 5), o)), S(xf('50,56 38,42 20,40 16,48 32,58', o)), S(xf('50,50 62,34 82,30 86,40 68,52', o))];
+import { MARK, pair, talisman, signet, hand, sprout } from './_cards.mjs';
 
 export default {
   cards: {

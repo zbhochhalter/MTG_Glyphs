@@ -20,8 +20,10 @@ const ATTRS = new Set([...GEOM, ...PAINT]);
 const BAL = { leftInk: 0.55, rightAcc: 0.22, minAcc: 0.12 };
 
 const errors = [], warnings = [];
-const err = (f, m) => errors.push(`${f}: ${m}`);
-const warn = (f, m) => warnings.push(`${f}: ${m}`);
+const NAMES = Object.fromEntries(Object.entries(readJSON(path.join(ROOT, 'manifest.json'), {}).cards || {}).map(([k, v]) => [`glyphs/cards/${k}.svg`, v.name]));
+const label = f => (NAMES[f] ? `${f} (${NAMES[f]})` : f);
+const err = (f, m) => errors.push(`${label(f)}: ${m}`);
+const warn = (f, m) => warnings.push(`${label(f)}: ${m}`);
 
 function parse(txt, f) {
   const nodes = [];

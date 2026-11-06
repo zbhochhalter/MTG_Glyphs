@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+<path fill="#000" d="M47.5 92 47.7 57.5 50.6 53.2 50.6 92Z"/>
+<path class="accent" d="M50 54.1 60.5 38.5 71.3 34.1 72.7 37.9 63.5 41.5 52.3 58.5 52.5 92 50 92Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M47.5 92 47.7 57.5 60.5 38.5 71.3 34.1 72.7 37.9 63.5 41.5 52.3 58.5 52.5 92Z"/>
+<path class="accent" d="M64 36 76 28 88 36 84 50 70 50Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M64 36 76 28 88 36 84 50 70 50Z"/>
+<path fill="#000" d="M36 80 24 70 32 64 50 72Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M36 80 24 70 32 64 50 72Z"/>
+<path class="accent" d="M49.2 73.9 45.7 75.9 44.5 73.7 47.9 71.7Z"/>
+<path fill="#000" d="M78 39 80.6 40.5 80.6 43.5 78 45 75.4 43.5 75.4 40.5Z"/>
+<path class="accent" d="M80 60.1 81.4 62.9 83.1 65.7 83.4 68 82.2 70.2 80 71.3 77.8 70.2 76.6 68 76.9 65.7 78.6 62.9Z"/>
+<path fill="none" stroke="#000" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" d="M80 60.1 81.4 62.9 83.1 65.7 83.4 68 82.2 70.2 80 71.3 77.8 70.2 76.6 68 76.9 65.7 78.6 62.9Z"/>
+</svg>
